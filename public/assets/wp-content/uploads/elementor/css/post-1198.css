@@ -1,0 +1,179 @@
+.elementor-1198 .elementor-element.elementor-element-2d7db69 {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow)) * 100%);
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --justify-content: center;
+    --align-items: center;
+    --gap: 10px 10px;
+    --row-gap: 10px;
+    --column-gap: 10px;
+    border-style: dashed;
+    --border-style: dashed;
+    border-width: 0px 0px 0px 0px;
+    --border-top-width: 0px;
+    --border-right-width: 0px;
+    --border-bottom-width: 0px;
+    --border-left-width: 0px;
+    border-color: var( --e-global-color-accent);
+    --border-color: var( --e-global-color-accent);
+    box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.32);
+    --padding-top: 70px;
+    --padding-bottom: 70px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-1198 .elementor-element.elementor-element-2d7db69:not(.elementor-motion-effects-element-type-background),
+.elementor-1198 .elementor-element.elementor-element-2d7db69>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: var( --e-global-color-fe489dd);
+}
+
+.elementor-1198 .elementor-element.elementor-element-bbebd27 {
+    --display: flex;
+    --justify-content: center;
+    --align-items: center;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow)) * 100%);
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    font-family: var( --e-global-typography-primary-font-family), Sans-serif;
+    font-size: var( --e-global-typography-primary-font-size);
+    font-weight: var( --e-global-typography-primary-font-weight);
+    color: var( --e-global-color-primary);
+}
+
+.elementor-1198 .elementor-element.elementor-element-9bed479 {
+    text-align: left;
+}
+
+.elementor-1198 .elementor-element.elementor-element-9bed479 .elementor-heading-title {
+    font-family: "Inter", Sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: var( --e-global-color-31e911c);
+}
+
+.elementor-widget-text-editor {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-size: var( --e-global-typography-text-font-size);
+    font-weight: var( --e-global-typography-text-font-weight);
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+    background-color: var( --e-global-color-primary);
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap,
+.elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap {
+    color: var( --e-global-color-primary);
+    border-color: var( --e-global-color-primary);
+}
+
+.elementor-1198 .elementor-element.elementor-element-de724d3 {
+    text-align: justify;
+}
+
+.elementor-1198 .elementor-element.elementor-element-eed7cc3 {
+    --display: flex;
+    --justify-content: center;
+    --align-items: center;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow)) * 100%);
+}
+
+.elementor-widget-image .widget-image-caption {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-size: var( --e-global-typography-text-font-size);
+    font-weight: var( --e-global-typography-text-font-weight);
+}
+
+.elementor-1198 .elementor-element.elementor-element-06e7ce7 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-widget-theme-post-content {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-size: var( --e-global-typography-text-font-size);
+    font-weight: var( --e-global-typography-text-font-weight);
+}
+
+.elementor-1198 .elementor-element.elementor-element-1d0fe77 {
+    --display: flex;
+}
+
+body.elementor-page-1198:not(.elementor-motion-effects-element-type-background),
+body.elementor-page-1198>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #00142D;
+}
+
+body.elementor-page-1198 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+@media(max-width:1024px) {
+    .elementor-widget-heading .elementor-heading-title {
+        font-size: var( --e-global-typography-primary-font-size);
+    }
+    .elementor-1198 .elementor-element.elementor-element-9bed479 .elementor-heading-title {
+        font-size: 26px;
+    }
+    .elementor-widget-text-editor {
+        font-size: var( --e-global-typography-text-font-size);
+    }
+    .elementor-widget-image .widget-image-caption {
+        font-size: var( --e-global-typography-text-font-size);
+    }
+    .elementor-widget-theme-post-content {
+        font-size: var( --e-global-typography-text-font-size);
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-1198 .elementor-element.elementor-element-2d7db69 {
+        --padding-top: 50px;
+        --padding-bottom: 50px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+    .elementor-widget-heading .elementor-heading-title {
+        font-size: var( --e-global-typography-primary-font-size);
+    }
+    .elementor-1198 .elementor-element.elementor-element-9bed479 .elementor-heading-title {
+        font-size: 24px;
+    }
+    .elementor-widget-text-editor {
+        font-size: var( --e-global-typography-text-font-size);
+    }
+    .elementor-widget-image .widget-image-caption {
+        font-size: var( --e-global-typography-text-font-size);
+    }
+    .elementor-widget-theme-post-content {
+        font-size: var( --e-global-typography-text-font-size);
+    }
+}
+
+@media(min-width:768px) {
+    .elementor-1198 .elementor-element.elementor-element-bbebd27 {
+        --width: 75%;
+    }
+    .elementor-1198 .elementor-element.elementor-element-eed7cc3 {
+        --width: 75%;
+    }
+}
