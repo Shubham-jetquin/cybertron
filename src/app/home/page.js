@@ -340,6 +340,7 @@ const Home = () => {
                                                     </div>
                                                 </div>
                                             </div>
+                                            {/* Added */}
 
                                             <span className="swiper-notification" aria-live="assertive" aria-atomic="true" />
                                         </div>
