@@ -128,7 +128,7 @@ img.emoji {
 
 .wp-site-blocks > .alignleft {
   float: left;
-  margin-right: 2em;
+  marginRight: 2em;
 }
 
 .wp-site-blocks > .alignright {
@@ -139,7 +139,7 @@ img.emoji {
 .wp-site-blocks > .aligncenter {
   justify-content: center;
   margin-left: auto;
-  margin-right: auto;
+  marginRight: auto;
 }
 
 :where(.wp-site-blocks) > * {
@@ -207,7 +207,7 @@ img.emoji {
 
 .is-layout-flow > .aligncenter {
   margin-left: auto !important;
-  margin-right: auto !important;
+  marginRight: auto !important;
 }
 
 .is-layout-constrained > .alignleft {
@@ -224,14 +224,14 @@ img.emoji {
 
 .is-layout-constrained > .aligncenter {
   margin-left: auto !important;
-  margin-right: auto !important;
+  marginRight: auto !important;
 }
 
 .is-layout-constrained
   > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
   max-width: var(--wp--style--global--content-size);
   margin-left: auto !important;
-  margin-right: auto !important;
+  marginRight: auto !important;
 }
 
 .is-layout-constrained > .alignwide {
@@ -574,7 +574,7 @@ a:where(:not(.wp-element-button)) {
   --margin-top: 0px;
   --margin-bottom: 0px;
   --margin-left: 0px;
-  --margin-right: 0px;
+  --marginRight: 0px;
   --padding-top: 0px;
   --padding-bottom: 0px;
   --padding-left: 0px;
@@ -593,7 +593,7 @@ a:where(:not(.wp-element-button)) {
   --margin-top: 0px;
   --margin-bottom: 0px;
   --margin-left: 0px;
-  --margin-right: 0px;
+  --marginRight: 0px;
   --padding-top: 0px;
   --padding-bottom: 0px;
   --padding-left: 0px;
@@ -632,7 +632,7 @@ a:where(:not(.wp-element-button)) {
   --margin-top: 0px;
   --margin-bottom: 0px;
   --margin-left: 0px;
-  --margin-right: 0px;
+  --marginRight: 0px;
   --padding-top: 16px;
   --padding-bottom: 16px;
   --padding-left: 16px;

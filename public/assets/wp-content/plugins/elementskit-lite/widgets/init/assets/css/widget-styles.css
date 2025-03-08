@@ -4,7 +4,7 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
+    marginRight: -15px;
     margin-left: -15px
 }
 
@@ -1349,7 +1349,7 @@
 }
 
 .ekit-wid-con .nav-tabs>li>a {
-    margin-right: 2px;
+    marginRight: 2px;
     line-height: 1.42857143;
     border: 1px solid transparent;
     border-radius: 4px 4px 0 0
@@ -2139,7 +2139,7 @@ div.twentytwenty-handle {
 
 .twentytwenty-vertical .twentytwenty-handle::after {
     right: 50%;
-    margin-right: 22px;
+    marginRight: 22px;
     -webkit-box-shadow: -3px 0 0 #fff, 0 0 12px rgba(51, 51, 51, .5);
     box-shadow: -3px 0 0 #fff, 0 0 12px rgba(51, 51, 51, .5)
 }
@@ -2153,7 +2153,7 @@ div.twentytwenty-handle {
 .twentytwenty-handle>.twentytwenty-right-arrow {
     border-left: 6px solid #fff;
     right: 50%;
-    margin-right: -17px
+    marginRight: -17px
 }
 
 .twentytwenty-handle>.twentytwenty-up-arrow {
@@ -2334,7 +2334,7 @@ div.twentytwenty-handle {
     float: right;
     margin-top: 20px;
     margin-left: 20px;
-    margin-right: 20px;
+    marginRight: 20px;
     margin-bottom: 20px
 }
 
@@ -3039,7 +3039,7 @@ div.twentytwenty-handle {
 }
 
 .vertical-menu-right-icon {
-    margin-right: 7px
+    marginRight: 7px
 }
 
 .vertical-menu-left-icon {
@@ -3090,7 +3090,7 @@ div.twentytwenty-handle {
 }
 
 .ekit-vertical-navbar-nav>li>a .ekit-menu-icon {
-    margin-right: 7px;
+    marginRight: 7px;
     padding-right: 0
 }
 
@@ -3906,7 +3906,7 @@ div.dt-button {
     display: inline-block;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    margin-right: .333em;
+    marginRight: .333em;
     margin-bottom: .333em;
     padding: .5em 1em;
     border: 1px solid #999;
@@ -4036,7 +4036,7 @@ div.dt-button-collection div.dt-button {
     display: block;
     float: none;
     margin-bottom: 4px;
-    margin-right: 0
+    marginRight: 0
 }
 
 div.dt-button-collection a.dt-button.active:not(.disabled),
@@ -4956,32 +4956,32 @@ div.dtr-modal div.dtr-modal-background {
 
 .met_mx--m40 {
     margin-left: -40px;
-    margin-right: -40px
+    marginRight: -40px
 }
 
 .met_mx--m28 {
     margin-left: -28px;
-    margin-right: -28px
+    marginRight: -28px
 }
 
 .met_mx--12 {
     margin-left: 12px;
-    margin-right: 12px
+    marginRight: 12px
 }
 
 .met_mx--20 {
     margin-left: 20px;
-    margin-right: 20px
+    marginRight: 20px
 }
 
 .met_mx--24 {
     margin-left: 24px;
-    margin-right: 24px
+    marginRight: 24px
 }
 
 .met_mx--36 {
     margin-left: 36px;
-    margin-right: 36px
+    marginRight: 36px
 }
 
 .met_my--m40 {
@@ -5043,19 +5043,19 @@ div.dtr-modal div.dtr-modal-background {
 }
 
 .met_mr--1 {
-    margin-right: 1px
+    marginRight: 1px
 }
 
 .met_mr--10 {
-    margin-right: 10px
+    marginRight: 10px
 }
 
 .met_mr--15 {
-    margin-right: 15px
+    marginRight: 15px
 }
 
 .met_mr--20 {
-    margin-right: 20px
+    marginRight: 20px
 }
 
 .met_mb--0 {
@@ -5071,7 +5071,7 @@ div.dtr-modal div.dtr-modal-background {
 }
 
 .met_not_last_mr--20:not(:last-child) {
-    margin-right: 20px
+    marginRight: 20px
 }
 
 .met_not_last_mb--20:not(:last-child) {
@@ -5533,7 +5533,7 @@ a:hover>.a:hover\:met_scaley--200:hover {
 .ekit-wid-con .elementor-inline-items.row .elementor-icon-list-item {
     margin: 0;
     padding: 0;
-    margin-right: 0 !important;
+    marginRight: 0 !important;
     margin-left: 0 !important;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5886,7 +5886,7 @@ a:hover>.a:hover\:met_scaley--200:hover {
 }
 
 .ekit-wid-con .ekit-review-overview--thumbnail {
-    margin-right: 1rem
+    marginRight: 1rem
 }
 
 .ekit-wid-con .ekit-review-overview--thumbnail img {
@@ -5903,7 +5903,7 @@ a:hover>.a:hover\:met_scaley--200:hover {
 
 .ekit-wid-con .ekit-review-overview--title img {
     height: 26px;
-    margin-right: .5rem
+    marginRight: .5rem
 }
 
 .ekit-wid-con .ekit-review-overview--title h4 {
@@ -6113,7 +6113,7 @@ a:hover>.a:hover\:met_scaley--200:hover {
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
-    margin-right: 1rem
+    marginRight: 1rem
 }
 
 .ekit-wid-con .ekit-review-card--stars {
@@ -6165,7 +6165,7 @@ a:hover>.a:hover\:met_scaley--200:hover {
 }
 
 .ekit-wid-con .ekit-review-card--actions .btn:first-child {
-    margin-right: 10px
+    marginRight: 10px
 }
 
 .ekit-wid-con .ekit-review-card--posted-on {
@@ -6347,7 +6347,7 @@ a:hover>.a:hover\:met_scaley--200:hover {
 }
 
 .ekit-wid-con .ekit-review-card-overview .ekit-review-card--image {
-    margin-right: 1rem
+    marginRight: 1rem
 }
 
 .ekit-wid-con .ekit-review-card-overview .ekit-review-card--name {
@@ -6361,7 +6361,7 @@ a:hover>.a:hover\:met_scaley--200:hover {
     font-size: 18px;
     line-height: 22px;
     font-weight: 700;
-    margin-right: 6px
+    marginRight: 6px
 }
 
 .ekit-wid-con .ekit-review-card-overview .ekit-review-card--desc {
@@ -6571,7 +6571,7 @@ a:hover>.a:hover\:met_scaley--200:hover {
 
 .ekit-wid-con .elementor-icon-list-item a>img {
     width: 100px;
-    margin-right: 15px
+    marginRight: 15px
 }
 
 .ekit-wid-con .elementor-icon-list-item .meta-lists {
@@ -14577,7 +14577,7 @@ body.admin-bar .ekit-promo-popup.mfp-ready .mfp-close {
 }
 
 .ekit-wid-con .product-filter-wraper .woocommerce-ordering {
-    margin-right: 50px;
+    marginRight: 50px;
     margin-bottom: 0
 }
 
@@ -14732,7 +14732,7 @@ body.admin-bar .ekit-promo-popup.mfp-ready .mfp-close {
     border-radius: 0 0 5px 5px;
     position: relative;
     margin-left: auto;
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .elementskit-accordion.floating-style .elementskit-card[aria-expanded=true] .elementskit-btn-link {
@@ -14882,7 +14882,7 @@ body.admin-bar .ekit-promo-popup.mfp-ready .mfp-close {
 .ekit-wid-con .ekit_accordion_icon_group {
     position: absolute;
     right: 0;
-    margin-right: 30px
+    marginRight: 30px
 }
 
 .ekit-wid-con .elementskit-accordion.curve-shape .svg-shape {
@@ -14900,7 +14900,7 @@ body.admin-bar .ekit-promo-popup.mfp-ready .mfp-close {
 }
 
 .ekit-wid-con .ekit-header-info>li:not(:last-child) {
-    margin-right: 15px
+    marginRight: 15px
 }
 
 .ekit-wid-con .ekit-header-info,
@@ -15322,7 +15322,7 @@ body .profile-card {
 .ekit-wid-con .profile-card.text-center .profile-header,
 body .profile-card.text-center .profile-header {
     margin-left: auto;
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .profile-card:hover,
@@ -15621,7 +15621,7 @@ body .image-card-v3 .profile-image-card:hover::after {
 .ekit-wid-con .image-card-v3.tiny-gutters,
 body .image-card-v3.tiny-gutters {
     margin-left: -3px;
-    margin-right: -3px
+    marginRight: -3px
 }
 
 .ekit-wid-con .image-card-v3.tiny-gutters>[class^=col-],
@@ -15925,13 +15925,13 @@ body .style-circle .profile-image-card {
 .ekit-wid-con .style-circle .profile-image-card.text-center,
 body .style-circle .profile-image-card.text-center {
     margin-left: auto;
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .text-center .profile-header,
 body .text-center .profile-header {
     margin-left: auto;
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .popup-modal,
@@ -16013,7 +16013,7 @@ body .ekit-team-style-overlay_details .profile-designation {
 .ekit-wid-con .ekit-team-img>img,
 body .ekit-team-img>img {
     margin-left: auto;
-    margin-right: auto;
+    marginRight: auto;
     border-radius: inherit
 }
 
@@ -16258,7 +16258,7 @@ body .modal-header .mfp-close {
 body .ekit-promo-popup>.mfp-container {
     right: 0;
     margin-left: auto;
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .ekit-promo-popup>.mfp-container>.mfp-content,
@@ -16278,7 +16278,7 @@ body .ekit-team-social-list>li {
 
 .ekit-wid-con .ekit-team-social-list>li:not(:last-child),
 body .ekit-team-social-list>li:not(:last-child) {
-    margin-right: 10px
+    marginRight: 10px
 }
 
 .ekit-wid-con .ekit-team-social-list>li>a,
@@ -16361,7 +16361,7 @@ body .elementskit-team-popup svg {
 
 .ekit-wid-con .elementskit-blog-block-post .elementskit-entry-thumb {
     border-radius: 10px;
-    margin-right: 20px
+    marginRight: 20px
 }
 
 .ekit-wid-con .elementskit-blog-block-post .entry-title {
@@ -16403,7 +16403,7 @@ body .elementskit-team-popup svg {
 
 .ekit-wid-con .elementskit-blog-block-post .post-meta-list .meta-cat,
 .ekit-wid-con .elementskit-blog-block-post .post-meta-list .meta-date {
-    margin-right: 40px
+    marginRight: 40px
 }
 
 .ekit-wid-con .elementskit-blog-block-post .elementskit-post-footer>p {
@@ -16638,7 +16638,7 @@ body .elementskit-team-popup svg {
 }
 
 .ekit-wid-con .post-meta-list>span:not(:last-child) {
-    margin-right: 40px
+    marginRight: 40px
 }
 
 .ekit-wid-con .post-meta-list .meta-author,
@@ -16656,7 +16656,7 @@ body .elementskit-team-popup svg {
 
 .ekit-wid-con .meta-author .author-img {
     display: inline-block;
-    margin-right: 15px;
+    marginRight: 15px;
     -webkit-box-shadow: 4.95px 4.95px 15px 0 rgba(0, 0, 0, .2);
     box-shadow: 4.95px 4.95px 15px 0 rgba(0, 0, 0, .2);
     border-radius: 50%;
@@ -16697,7 +16697,7 @@ body .elementskit-team-popup svg {
 
 .ekit-wid-con .text-center .elementskit-border-hr {
     margin-left: auto;
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .text-right .elementskit-border-hr {
@@ -16727,7 +16727,7 @@ body .elementskit-team-popup svg {
 }
 
 .ekit-wid-con .elementskit-meta-lists>.elementskit-single-meta:not(:last-child) {
-    margin-right: 15px
+    marginRight: 15px
 }
 
 .ekit-wid-con .elementskit-meta-lists>.elementskit-single-meta strong {
@@ -16864,7 +16864,7 @@ body .elementskit-team-popup svg {
 }
 
 .ekit-wid-con .elementskit-meta-categories .elementskit-meta-wraper span:not(:last-child) {
-    margin-right: 5px
+    marginRight: 5px
 }
 
 .ekit-wid-con .elementskit-meta-categories .elementskit-meta-wraper span>a {
@@ -17308,12 +17308,12 @@ body .elementskit-team-popup svg {
 
 .ekit-wid-con .elementskit-clients-slider .swiper-container:not(.swiper-container-initialized) .swiper-slide {
     max-width: calc(100% / var(--ekit_client_logo_slidetosho, 4));
-    margin-right: var(--ekit_client_logo_left_right_spacing, 15px)
+    marginRight: var(--ekit_client_logo_left_right_spacing, 15px)
 }
 
 .ekit-wid-con .elementskit-clients-slider .swiper:not(.swiper-initialized) .swiper-slide {
     max-width: calc(100% / var(--ekit_client_logo_slidetosho, 4));
-    margin-right: var(--ekit_client_logo_left_right_spacing, 15px)
+    marginRight: var(--ekit_client_logo_left_right_spacing, 15px)
 }
 
 .ekit-wid-con .elementskit-info-image-box {
@@ -17408,7 +17408,7 @@ body .elementskit-team-popup svg {
     z-index: 2;
     margin-top: -20px;
     margin-left: auto;
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .elementskit-info-image-box.hover-border-bottom .elementskit-box-body {
@@ -17472,7 +17472,7 @@ body .elementskit-team-popup svg {
     transition: all .4s ease;
     height: 90px;
     margin-left: auto;
-    margin-right: auto;
+    marginRight: auto;
     margin-top: -40px;
     position: relative
 }
@@ -17713,7 +17713,7 @@ body .elementskit-team-popup svg {
 }
 
 .ekit-wid-con .image-box-img-left img {
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .image-box-img-right img {
@@ -19188,7 +19188,7 @@ body .elementskit-team-popup svg {
 }
 
 .ekit-wid-con .elementskit-flip-clock>.elementskit-time:not(:last-child) {
-    margin-right: 30px
+    marginRight: 30px
 }
 
 .ekit-wid-con .elementskit-flip-clock .elementskit-count {
@@ -20136,7 +20136,7 @@ body .elementskit-team-popup svg {
 
 .ekit-wid-con .elementskit-testimonial-slider .swiper-container:not(.swiper-container-initialized) .swiper-slide {
     max-width: calc(100% / var(--ekit_testimonial_slidetoshow, 1));
-    margin-right: var(--ekit_testimonial_left_right_spacing, 15px);
+    marginRight: var(--ekit_testimonial_left_right_spacing, 15px);
     margin-left: var(--ekit_testimonial_left_right_spacing, 15px)
 }
 
@@ -20157,7 +20157,7 @@ body .elementskit-team-popup svg {
 
 .ekit-wid-con .elementskit-commentor-bio.client_center .elementskit-commentor-image>img {
     margin-left: auto;
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .elementskit-commentor-bio.client_right {
@@ -20274,7 +20274,7 @@ body .elementskit-team-popup svg {
 }
 
 .ekit-wid-con .elementkit-commentor-details.client_left {
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .elementkit-commentor-details.client_right {
@@ -20351,7 +20351,7 @@ body .elementskit-team-popup svg {
 }
 
 .ekit-wid-con .ekit_testimonial_style_5 .ekit-testimonial--avatar {
-    margin-right: 20px
+    marginRight: 20px
 }
 
 .ekit-wid-con .ekit_testimonial_style_6 {
@@ -20389,7 +20389,7 @@ body .elementskit-team-popup svg {
 
 .ekit-wid-con .ekit_testimonial_style_6 .elementskit-commentor-image>img {
     margin-left: auto;
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .ekit_testimonial_style_6 .ekit-testimonial--avatar {
@@ -20415,7 +20415,7 @@ body .elementskit-team-popup svg {
 }
 
 .ekit-wid-con .elementskit-stars>li:not(:last-child) {
-    margin-right: 5px
+    marginRight: 5px
 }
 
 .ekit-wid-con .elementskit-stars>li>a,
@@ -20465,7 +20465,7 @@ body .elementskit-team-popup svg {
 .ekit-wid-con .elementkit-tab-wraper.vertical>.elementkit-tab-nav .elementkit-nav-item {
     display: block;
     width: 100%;
-    margin-right: 0
+    marginRight: 0
 }
 
 .ekit-wid-con .elementkit-tab-wraper.elementskit-fitcontent-tab:not(.vertical) .elementkit-tab-nav {
@@ -20542,7 +20542,7 @@ body .elementskit-team-popup svg {
 }
 
 .ekit-wid-con .elementkit-tab-nav .elementkit-nav-item:not(:last-child) {
-    margin-right: 10px
+    marginRight: 10px
 }
 
 .ekit-wid-con .elementkit-tab-nav .elementkit-nav-item .elementkit-nav-link {
@@ -22233,7 +22233,7 @@ body .elementskit-team-popup svg {
 }
 
 .ekit-wid-con .elementskit_input_group_prepend {
-    margin-right: -1px
+    marginRight: -1px
 }
 
 .ekit-wid-con .elementskit_input_group_prepend+.ekit_form_control {
@@ -22301,7 +22301,7 @@ body .elementskit-team-popup svg {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
-        margin-right: 0 !important
+        marginRight: 0 !important
     }
     .ekit-wid-con .elementskit_inline_form.has-extra-fields>div:not(:last-child) {
         margin-bottom: 20px
@@ -22358,7 +22358,7 @@ body .elementskit-team-popup svg {
     color: #3b3b3b;
     font-weight: 500;
     padding-left: 5px;
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .ekit-single-day .ekit-business-time {
@@ -22606,7 +22606,7 @@ body .elementskit-team-popup svg {
 }
 
 .ekit-wid-con .elementskit-section-subtitle.elementskit-style-border::before {
-    margin-right: 15px
+    marginRight: 15px
 }
 
 .ekit-wid-con .elementskit-section-subtitle.elementskit-style-border::after {
@@ -22749,7 +22749,7 @@ body .elementskit-team-popup svg {
 .ekit-wid-con .elementskit-section-title-wraper.text_center .elementskit-border-divider,
 .ekit-wid-con .elementskit-section-title-wraper.text_center .elementskit-border-star {
     margin-left: auto;
-    margin-right: auto
+    marginRight: auto
 }
 
 .ekit-wid-con .elementskit-section-title-wraper.right,
@@ -22959,7 +22959,7 @@ body .elementskit-team-popup svg {
 
 .ekit-wid-con .post--lists.vertical--list>li {
     float: left;
-    margin-right: 16px
+    marginRight: 16px
 }
 
 .ekit-wid-con .post--lists.vertical--list>li>a {

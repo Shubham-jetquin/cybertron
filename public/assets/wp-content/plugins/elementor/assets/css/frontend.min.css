@@ -443,7 +443,7 @@ h1.entry-title {
 .elementor-section .elementor-container {
     display: flex;
     margin-left: auto;
-    margin-right: auto;
+    marginRight: auto;
     position: relative
 }
 
@@ -511,7 +511,7 @@ h1.entry-title {
 }
 
 .elementor-widget-wrap.e-swiper-container {
-    width: calc(100% - (var(--e-column-margin-left, 0px) + var(--e-column-margin-right, 0px)))
+    width: calc(100% - (var(--e-column-margin-left, 0px) + var(--e-column-marginRight, 0px)))
 }
 
 .elementor-widget {
@@ -1537,7 +1537,7 @@ h1.entry-title {
     --height: auto;
     --text-align: initial;
     --margin-top: 0px;
-    --margin-right: 0px;
+    --marginRight: 0px;
     --margin-bottom: 0px;
     --margin-left: 0px;
     --padding-top: var(--container-default-padding-top, 10px);
@@ -1574,7 +1574,7 @@ h1.entry-title {
     --margin-block-start: var(--margin-top);
     --margin-block-end: var(--margin-bottom);
     --margin-inline-start: var(--margin-left);
-    --margin-inline-end: var(--margin-right);
+    --margin-inline-end: var(--marginRight);
     --padding-inline-start: var(--padding-left);
     --padding-inline-end: var(--padding-right);
     --padding-block-start: var(--padding-top);
@@ -1588,7 +1588,7 @@ h1.entry-title {
 body.rtl .e-con {
     --padding-inline-start: var(--padding-right);
     --padding-inline-end: var(--padding-left);
-    --margin-inline-start: var(--margin-right);
+    --margin-inline-start: var(--marginRight);
     --margin-inline-end: var(--margin-left);
     --border-inline-start-width: var(--border-right-width);
     --border-inline-end-width: var(--border-left-width)
@@ -1683,7 +1683,7 @@ body.rtl .e-con {
 
 :is(.elementor-section-wrap, [data-elementor-id])>.e-con {
     --margin-left: auto;
-    --margin-right: auto;
+    --marginRight: auto;
     max-width: min(100%, var(--width))
 }
 

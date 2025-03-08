@@ -7,8 +7,65 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Home = () => {
 
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                },
+            },
+        ],
+    };
+
+    const images = [
+        "https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU.png",
+        "https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54.png",
+        "https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD.png",
+    ];
+
     const secondSetting = {
         infinite: true,
+        dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 980,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    dots: true,
+                },
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    dots: true,
+                },
+            },
+        ],
+    };
+
+    const thirdSetting = {
+        infinite: true,
+        dots: true,
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: true,
@@ -36,24 +93,6 @@ const Home = () => {
         ],
     };
 
-    const settings = {
-        dots: true,           // Show navigation dots
-        infinite: true,       // Enable infinite scrolling
-        speed: 500,          // Animation speed (in ms)
-        slidesToShow: 3,     // Number of slides visible at once
-        slidesToScroll: 1,   // Number of slides to scroll per action
-        autoplay: true,      // Enable auto sliding
-        autoplaySpeed: 2000, // Auto slide every 2 seconds
-        arrows: false,       // Hide prev/next arrows
-        responsive: [
-            {
-                breakpoint: 768, // Mobile view
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    };
 
     return <>
 
@@ -199,157 +238,28 @@ const Home = () => {
                                 <p>Trusted Over<span style={{ "color": "#20bdbd" }}> 2300 + </span>Companies in the World</p>								</div>
                         </div>
                     </div>
-                    <div className="elementor-element elementor-element-60d7ef8 e-flex e-con-boxed e-con e-child" data-id="60d7ef8" data-element_type="container">
-                        <div className="e-con-inner">
-                            <div className="elementor-element elementor-element-3211f9c elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-loop-carousel e-widget-swiper" data-id="3211f9c" data-element_type="widget" data-settings="{&quot;template_id&quot;:&quot;989&quot;,&quot;slides_to_show&quot;:&quot;4&quot;,&quot;_skin&quot;:&quot;post&quot;,&quot;slides_to_show_tablet&quot;:&quot;2&quot;,&quot;slides_to_show_mobile&quot;:&quot;1&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;edit_handle_selector&quot;:&quot;.elementor-widget-container&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;offset_sides&quot;:&quot;none&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="loop-carousel.post">
-                                <div className="elementor-widget-container" style={{ display: 'flex' }}>
-                                    <Slider {...settings}>
-                                        <div className="swiper elementor-loop-container elementor-grid swiper-initialized swiper-horizontal" dir="ltr">
-                                            <div className="swiper-wrapper" aria-live="off" id="swiper-wrapper-50c910ecd285cf7f7" style={{ "WebkitTransform": "translate3d(-1412.5px, 0px, 0px)", "msTransform": "translate3d(-1412.5px, 0px, 0px)", "transform": "translate3d(-1412.5px, 0px, 0px)", "WebkitTransitionDuration": "0ms", "transitionDuration": "0ms" }}>
-                                                <div data-elementor-type="loop-item" data-elementor-id={989} className="elementor elementor-989 swiper-slide e-loop-item e-loop-item-988 post-988 slider type-slider status-publish has-post-thumbnail hentry swiper-slide-duplicate swiper-slide-duplicate-prev" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="1 / 4" data-swiper-slide-index={0} aria-hidden="true" inert style={{ "width": "272.5px", "margin-right": "10px" }}>
-                                                    <div className="elementor-element elementor-element-297a7f4 e-flex e-con-boxed e-con e-parent" data-id="297a7f4" data-element_type="container">
-                                                        <div className="e-con-inner">
-                                                            <div className="elementor-element elementor-element-8298cba elementor-widget elementor-widget-image" data-id="8298cba" data-element_type="widget" data-widget_type="image.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <img loading="lazy" decoding="async" width={800} height={292} src="https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU.png" className="attachment-large size-large wp-image-319" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU.png 983w, https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU-300x110.png 300w, https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU-768x280.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div data-elementor-type="loop-item" data-elementor-id={989} className="elementor elementor-989 swiper-slide e-loop-item e-loop-item-987 post-987 slider type-slider status-publish has-post-thumbnail hentry swiper-slide-duplicate swiper-slide-duplicate-active" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="2 / 4" data-swiper-slide-index={1} aria-hidden="true" inert style={{ "width": "272.5px", "margin-right": "10px" }}>
-                                                    <div className="elementor-element elementor-element-297a7f4 e-flex e-con-boxed e-con e-parent" data-id="297a7f4" data-element_type="container">
-                                                        <div className="e-con-inner">
-                                                            <div className="elementor-element elementor-element-8298cba elementor-widget elementor-widget-image" data-id="8298cba" data-element_type="widget" data-widget_type="image.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <img loading="lazy" decoding="async" width={800} height={321} src="https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54.png" className="attachment-large size-large wp-image-320" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54.png 891w, https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54-300x121.png 300w, https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54-768x309.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div data-elementor-type="loop-item" data-elementor-id={989} className="elementor elementor-989 swiper-slide e-loop-item e-loop-item-986 post-986 slider type-slider status-publish has-post-thumbnail hentry swiper-slide-duplicate swiper-slide-duplicate-next" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="3 / 4" data-swiper-slide-index={2} aria-hidden="true" inert style={{ "width": "272.5px", "margin-right": "10px" }}>
-                                                    <div className="elementor-element elementor-element-297a7f4 e-flex e-con-boxed e-con e-parent" data-id="297a7f4" data-element_type="container">
-                                                        <div className="e-con-inner">
-                                                            <div className="elementor-element elementor-element-8298cba elementor-widget elementor-widget-image" data-id="8298cba" data-element_type="widget" data-widget_type="image.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <img loading="lazy" decoding="async" width={800} height={307} src="https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD.png" className="attachment-large size-large wp-image-321" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD.png 933w, https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD-300x115.png 300w, https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD-768x295.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div data-elementor-type="loop-item" data-elementor-id={989} className="elementor elementor-989 swiper-slide e-loop-item e-loop-item-984 post-984 slider type-slider status-publish has-post-thumbnail hentry swiper-slide-duplicate" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="4 / 4" data-swiper-slide-index={3} aria-hidden="true" inert style={{ "width": "272.5px", "margin-right": "10px" }}>
-                                                    <div className="elementor-element elementor-element-297a7f4 e-flex e-con-boxed e-con e-parent" data-id="297a7f4" data-element_type="container">
-                                                        <div className="e-con-inner">
-                                                            <div className="elementor-element elementor-element-8298cba elementor-widget elementor-widget-image" data-id="8298cba" data-element_type="widget" data-widget_type="image.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <img loading="lazy" decoding="async" width={800} height={300} src="https://cybertron-tech.com/wp-content/uploads/2025/02/logo-Y7FDGX.png" className="attachment-large size-large wp-image-322" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/logo-Y7FDGX.png 954w, https://cybertron-tech.com/wp-content/uploads/2025/02/logo-Y7FDGX-300x113.png 300w, https://cybertron-tech.com/wp-content/uploads/2025/02/logo-Y7FDGX-768x288.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <style id="loop-989" dangerouslySetInnerHTML={{ __html: ".elementor-989 .elementor-element.elementor-element-297a7f4{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-widget-image .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;fontSize:var( --e-global-typography-text-fontSize );font-weight:var( --e-global-typography-text-font-weight );}@media(max-width:1024px){.elementor-widget-image .widget-image-caption{fontSize:var( --e-global-typography-text-fontSize );}}@media(max-width:767px){.elementor-widget-image .widget-image-caption{fontSize:var( --e-global-typography-text-fontSize );}}" }} />
-                                                <div data-elementor-type="loop-item" data-elementor-id={989} className="elementor elementor-989 swiper-slide e-loop-item e-loop-item-988 post-988 slider type-slider status-publish has-post-thumbnail hentry swiper-slide-prev" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="1 / 4" data-swiper-slide-index={0} style={{ "width": "272.5px", "margin-right": "10px" }} aria-hidden="true" inert>
-                                                    <div className="elementor-element elementor-element-297a7f4 e-flex e-con-boxed e-con e-parent" data-id="297a7f4" data-element_type="container">
-                                                        <div className="e-con-inner">
-                                                            <div className="elementor-element elementor-element-8298cba elementor-widget elementor-widget-image" data-id="8298cba" data-element_type="widget" data-widget_type="image.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <img loading="lazy" decoding="async" width={800} height={292} src="https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU.png" className="attachment-large size-large wp-image-319" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU.png 983w, https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU-300x110.png 300w, https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU-768x280.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div data-elementor-type="loop-item" data-elementor-id={989} className="elementor elementor-989 swiper-slide e-loop-item e-loop-item-987 post-987 slider type-slider status-publish has-post-thumbnail hentry swiper-slide-active" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="2 / 4" data-swiper-slide-index={1} style={{ "width": "272.5px", "margin-right": "10px" }}>
-                                                    <div className="elementor-element elementor-element-297a7f4 e-flex e-con-boxed e-con e-parent" data-id="297a7f4" data-element_type="container">
-                                                        <div className="e-con-inner">
-                                                            <div className="elementor-element elementor-element-8298cba elementor-widget elementor-widget-image" data-id="8298cba" data-element_type="widget" data-widget_type="image.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <img loading="lazy" decoding="async" width={800} height={321} src="https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54.png" className="attachment-large size-large wp-image-320" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54.png 891w, https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54-300x121.png 300w, https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54-768x309.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div data-elementor-type="loop-item" data-elementor-id={989} className="elementor elementor-989 swiper-slide e-loop-item e-loop-item-986 post-986 slider type-slider status-publish has-post-thumbnail hentry swiper-slide-next" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="3 / 4" data-swiper-slide-index={2} style={{ "width": "272.5px", "margin-right": "10px" }}>
-                                                    <div className="elementor-element elementor-element-297a7f4 e-flex e-con-boxed e-con e-parent" data-id="297a7f4" data-element_type="container">
-                                                        <div className="e-con-inner">
-                                                            <div className="elementor-element elementor-element-8298cba elementor-widget elementor-widget-image" data-id="8298cba" data-element_type="widget" data-widget_type="image.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <img loading="lazy" decoding="async" width={800} height={307} src="https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD.png" className="attachment-large size-large wp-image-321" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD.png 933w, https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD-300x115.png 300w, https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD-768x295.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div data-elementor-type="loop-item" data-elementor-id={989} className="elementor elementor-989 swiper-slide e-loop-item e-loop-item-984 post-984 slider type-slider status-publish has-post-thumbnail hentry" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="4 / 4" data-swiper-slide-index={3} style={{ "width": "272.5px", "margin-right": "10px" }}>
-                                                    <div className="elementor-element elementor-element-297a7f4 e-flex e-con-boxed e-con e-parent" data-id="297a7f4" data-element_type="container">
-                                                        <div className="e-con-inner">
-                                                            <div className="elementor-element elementor-element-8298cba elementor-widget elementor-widget-image" data-id="8298cba" data-element_type="widget" data-widget_type="image.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <img loading="lazy" decoding="async" width={800} height={300} src="https://cybertron-tech.com/wp-content/uploads/2025/02/logo-Y7FDGX.png" className="attachment-large size-large wp-image-322" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/logo-Y7FDGX.png 954w, https://cybertron-tech.com/wp-content/uploads/2025/02/logo-Y7FDGX-300x113.png 300w, https://cybertron-tech.com/wp-content/uploads/2025/02/logo-Y7FDGX-768x288.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div data-elementor-type="loop-item" data-elementor-id={989} className="elementor elementor-989 swiper-slide e-loop-item e-loop-item-988 post-988 slider type-slider status-publish has-post-thumbnail hentry swiper-slide-duplicate swiper-slide-duplicate-prev" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="1 / 4" data-swiper-slide-index={0} style={{ "width": "272.5px", "margin-right": "10px" }}>
-                                                    <div className="elementor-element elementor-element-297a7f4 e-flex e-con-boxed e-con e-parent" data-id="297a7f4" data-element_type="container">
-                                                        <div className="e-con-inner">
-                                                            <div className="elementor-element elementor-element-8298cba elementor-widget elementor-widget-image" data-id="8298cba" data-element_type="widget" data-widget_type="image.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <img loading="lazy" decoding="async" width={800} height={292} src="https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU.png" className="attachment-large size-large wp-image-319" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU.png 983w, https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU-300x110.png 300w, https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-9VAKXU-768x280.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div data-elementor-type="loop-item" data-elementor-id={989} className="elementor elementor-989 swiper-slide e-loop-item e-loop-item-987 post-987 slider type-slider status-publish has-post-thumbnail hentry swiper-slide-duplicate swiper-slide-duplicate-active" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="2 / 4" data-swiper-slide-index={1} style={{ "width": "272.5px", "margin-right": "10px" }}>
-                                                    <div className="elementor-element elementor-element-297a7f4 e-flex e-con-boxed e-con e-parent" data-id="297a7f4" data-element_type="container">
-                                                        <div className="e-con-inner">
-                                                            <div className="elementor-element elementor-element-8298cba elementor-widget elementor-widget-image" data-id="8298cba" data-element_type="widget" data-widget_type="image.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <img loading="lazy" decoding="async" width={800} height={321} src="https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54.png" className="attachment-large size-large wp-image-320" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54.png 891w, https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54-300x121.png 300w, https://cybertron-tech.com/wp-content/uploads/2025/02/logo-GR7E54-768x309.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div data-elementor-type="loop-item" data-elementor-id={989} className="elementor elementor-989 swiper-slide e-loop-item e-loop-item-986 post-986 slider type-slider status-publish has-post-thumbnail hentry swiper-slide-duplicate swiper-slide-duplicate-next" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="3 / 4" data-swiper-slide-index={2} style={{ "width": "272.5px", "margin-right": "10px" }}>
-                                                    <div className="elementor-element elementor-element-297a7f4 e-flex e-con-boxed e-con e-parent" data-id="297a7f4" data-element_type="container">
-                                                        <div className="e-con-inner">
-                                                            <div className="elementor-element elementor-element-8298cba elementor-widget elementor-widget-image" data-id="8298cba" data-element_type="widget" data-widget_type="image.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <img loading="lazy" decoding="async" width={800} height={307} src="https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD.png" className="attachment-large size-large wp-image-321" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD.png 933w, https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD-300x115.png 300w, https://cybertron-tech.com/wp-content/uploads/2025/02/logoo-JQLHGD-768x295.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div data-elementor-type="loop-item" data-elementor-id={989} className="elementor elementor-989 swiper-slide e-loop-item e-loop-item-984 post-984 slider type-slider status-publish has-post-thumbnail hentry swiper-slide-duplicate" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="4 / 4" data-swiper-slide-index={3} style={{ "width": "272.5px", "margin-right": "10px" }}>
-                                                    <div className="elementor-element elementor-element-297a7f4 e-flex e-con-boxed e-con e-parent" data-id="297a7f4" data-element_type="container">
-                                                        <div className="e-con-inner">
-                                                            <div className="elementor-element elementor-element-8298cba elementor-widget elementor-widget-image" data-id="8298cba" data-element_type="widget" data-widget_type="image.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <img loading="lazy" decoding="async" width={800} height={300} src="https://cybertron-tech.com/wp-content/uploads/2025/02/logo-Y7FDGX.png" className="attachment-large size-large wp-image-322" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/logo-Y7FDGX.png 954w, https://cybertron-tech.com/wp-content/uploads/2025/02/logo-Y7FDGX-300x113.png 300w, https://cybertron-tech.com/wp-content/uploads/2025/02/logo-Y7FDGX-768x288.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                    <div className="slider-container">
+                        <Slider {...settings}>
+                            {images.map((src, index) => (
+                                <div key={index} className="slide-item">
+                                    <div className="elementor elementor-989">
+                                        <div className="elementor-element elementor-widget-image">
+                                            <div className="elementor-widget-container">
+                                                <img
+                                                    loading="lazy"
+                                                    decoding="async"
+                                                    src={src}
+                                                    alt={`Slide ${index + 1}`}
+                                                    className="attachment-large size-large wp-image-319"
+                                                // style={{ width: "100%", height: "auto" }}
+                                                />
                                             </div>
-                                            {/* Added */}
-
-                                            <span className="swiper-notification" aria-live="assertive" aria-atomic="true" />
                                         </div>
-                                    </Slider>
-                                    <div className="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span className="swiper-pagination-bullet" role="button" data-bullet-index={0} aria-label="Go to slide 1" /><span className="swiper-pagination-bullet swiper-pagination-bullet-active" role="button" data-bullet-index={1} aria-label="Go to slide 2" tabIndex={0} aria-current="true" /><span className="swiper-pagination-bullet" role="button" data-bullet-index={2} aria-label="Go to slide 3" /><span className="swiper-pagination-bullet" role="button" data-bullet-index={3} aria-label="Go to slide 4" />
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            ))}
+                        </Slider>
+
                     </div>
                 </div>
             </div>
@@ -875,310 +785,855 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="elementor-element elementor-element-1357363 elementor-widget-mobile__width-inherit elementor-arrows-position-inside elementor-widget elementor-widget-n-carousel e-widget-swiper" data-id={1357363} data-element_type="widget" data-settings="{&quot;carousel_items&quot;:[{&quot;slide_title&quot;:&quot;Slide #1&quot;,&quot;_id&quot;:&quot;5799731&quot;},{&quot;slide_title&quot;:&quot;Slide #1&quot;,&quot;_id&quot;:&quot;c46e617&quot;},{&quot;slide_title&quot;:&quot;Slide #1&quot;,&quot;_id&quot;:&quot;887c09e&quot;},{&quot;slide_title&quot;:&quot;Slide #1&quot;,&quot;_id&quot;:&quot;68a8029&quot;}],&quot;slides_to_show&quot;:&quot;3&quot;,&quot;_animation&quot;:&quot;none&quot;,&quot;slides_to_show_tablet&quot;:&quot;2&quot;,&quot;slides_to_show_mobile&quot;:&quot;1&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;offset_sides&quot;:&quot;none&quot;,&quot;arrows&quot;:&quot;yes&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="nested-carousel.default">
-                        <div className="elementor-widget-container">
-                            <div className="e-n-carousel swiper swiper-initialized swiper-horizontal swiper-backface-hidden" role="region" aria-roledescription="carousel" aria-label="Carousel" dir="ltr">
-                                <div className="swiper-wrapper" aria-live="off" id="swiper-wrapper-a6c324a373f0e128" style={{ "WebkitTransform": "translate3d(-1480px, 0px, 0px)", "msTransform": "translate3d(-1480px, 0px, 0px)", "transform": "translate3d(-1480px, 0px, 0px)", "WebkitTransitionDuration": "0ms", "transitionDuration": "0ms" }}>
-                                    <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-slide={2} role="group" aria-roledescription="slide" aria-label="2 / 4" data-swiper-slide-index={1} aria-hidden="true" inert style={{ "width": "360px", "margin-right": "10px" }}>
-                                        <div className="elementor-element elementor-element-43958c3 animated-slow e-flex e-con-boxed e-con e-child" data-id="43958c3" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
-                                            <div className="e-con-inner">
-                                                <div className="elementor-element elementor-element-0b82941 e-con-full e-flex e-con e-child" data-id="0b82941" data-element_type="container">
-                                                    <div className="elementor-element elementor-element-3732acf e-con-full e-flex e-con e-child" data-id="3732acf" data-element_type="container">
-                                                        <div className="elementor-element elementor-element-23d9963 elementor-position-left elementor-position-top elementor-vertical-align-bottom elementor-widget elementor-widget-image-box" data-id="23d9963" data-element_type="widget" data-widget_type="image-box.default">
-                                                            <div className="elementor-widget-container">
-                                                                <div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img loading="lazy" decoding="async" width={150} height={150} src="https://cybertron-tech.com/wp-content/uploads/2025/02/testimonial-150x150.jpg" className="attachment-thumbnail size-thumbnail wp-image-342" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/testimonial-150x150.jpg 150w, https://cybertron-tech.com/wp-content/uploads/2025/02/testimonial.jpg 160w" sizes="(max-width: 150px) 100vw, 150px" /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">Shally</h3><p className="elementor-image-box-description">CEO</p></div></div>				</div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="elementor-element elementor-element-bdf7cd5 elementor-widget elementor-widget-rating" data-id="bdf7cd5" data-element_type="widget" data-widget_type="rating.default">
-                                                        <div className="elementor-widget-container">
-                                                            <div className="e-rating" itemType="https://schema.org/Rating" itemScope itemProp="reviewRating">
-                                                                <meta itemProp="worstRating" content={0} />
-                                                                <meta itemProp="bestRating" content={5} />
-                                                                <div className="e-rating-wrapper" itemProp="ratingValue" content={5} role="img" aria-label="Rated 5 out of 5">
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="elementor-element elementor-element-40c2b5b elementor-widget elementor-widget-text-editor" data-id="40c2b5b" data-element_type="widget" data-widget_type="text-editor.default">
-                                                        <div className="elementor-widget-container">
-                                                            <p>Thanks to Cybertrom’s cutting-edge cybersecurity services, we now feel confident that our data is safe, giving us peace of mind to focus on business growth.</p>								</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-slide={3} role="group" aria-roledescription="slide" aria-label="3 / 4" data-swiper-slide-index={2} aria-hidden="true" inert style={{ "width": "360px", "margin-right": "10px" }}>
-                                        <div className="elementor-element elementor-element-3d60158 animated-slow e-flex e-con-boxed e-con e-child" data-id="3d60158" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
-                                            <div className="e-con-inner">
-                                                <div className="elementor-element elementor-element-3ec6968 e-con-full e-flex e-con e-child" data-id="3ec6968" data-element_type="container">
-                                                    <div className="elementor-element elementor-element-94f63d2 e-con-full e-flex e-con e-child" data-id="94f63d2" data-element_type="container">
-                                                        <div className="elementor-element elementor-element-5ff5abe elementor-position-left elementor-position-top elementor-vertical-align-bottom elementor-widget elementor-widget-image-box" data-id="5ff5abe" data-element_type="widget" data-widget_type="image-box.default">
-                                                            <div className="elementor-widget-container">
-                                                                <div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img loading="lazy" decoding="async" width={150} height={150} src="https://cybertron-tech.com/wp-content/uploads/2025/02/testimonialllll-150x150.jpg" className="attachment-thumbnail size-thumbnail wp-image-343" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/testimonialllll-150x150.jpg 150w, https://cybertron-tech.com/wp-content/uploads/2025/02/testimonialllll.jpg 160w" sizes="(max-width: 150px) 100vw, 150px" /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">Gaurav</h3><p className="elementor-image-box-description">E-commerce Manager</p></div></div>				</div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="elementor-element elementor-element-fc87786 elementor-widget elementor-widget-rating" data-id="fc87786" data-element_type="widget" data-widget_type="rating.default">
-                                                        <div className="elementor-widget-container">
-                                                            <div className="e-rating" itemType="https://schema.org/Rating" itemScope itemProp="reviewRating">
-                                                                <meta itemProp="worstRating" content={0} />
-                                                                <meta itemProp="bestRating" content={5} />
-                                                                <div className="e-rating-wrapper" itemProp="ratingValue" content={5} role="img" aria-label="Rated 5 out of 5">
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="elementor-element elementor-element-59dc73f elementor-widget elementor-widget-text-editor" data-id="59dc73f" data-element_type="widget" data-widget_type="text-editor.default">
-                                                        <div className="elementor-widget-container">
-                                                            <p>The team at Cybertrom helped us build a seamless e-commerce platform that not only drives sales but also offers a smooth customer experience. Truly a game-changer!</p>								</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="swiper-slide swiper-slide-duplicate" data-slide={4} role="group" aria-roledescription="slide" aria-label="4 / 4" data-swiper-slide-index={3} aria-hidden="true" inert style={{ "width": "360px", "margin-right": "10px" }}>
-                                        <div className="elementor-element elementor-element-5eea65f animated-slow e-flex e-con-boxed e-con e-child" data-id="5eea65f" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
-                                            <div className="e-con-inner">
-                                                <div className="elementor-element elementor-element-de56b7b e-con-full e-flex e-con e-child" data-id="de56b7b" data-element_type="container">
-                                                    <div className="elementor-element elementor-element-170e512 e-con-full e-flex e-con e-child" data-id="170e512" data-element_type="container">
-                                                        <div className="elementor-element elementor-element-dade242 elementor-position-left elementor-position-top elementor-vertical-align-bottom elementor-widget elementor-widget-image-box" data-id="dade242" data-element_type="widget" data-widget_type="image-box.default">
-                                                            <div className="elementor-widget-container">
-                                                                <div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img loading="lazy" decoding="async" width={150} height={150} src="https://cybertron-tech.com/wp-content/uploads/2025/02/team-SMNZUJQ-150x150.jpg" className="attachment-thumbnail size-thumbnail wp-image-333" alt /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">Mark T.</h3><p className="elementor-image-box-description">Founder</p></div></div>				</div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="elementor-element elementor-element-360607f elementor-widget elementor-widget-rating" data-id="360607f" data-element_type="widget" data-widget_type="rating.default">
-                                                        <div className="elementor-widget-container">
-                                                            <div className="e-rating" itemType="https://schema.org/Rating" itemScope itemProp="reviewRating">
-                                                                <meta itemProp="worstRating" content={0} />
-                                                                <meta itemProp="bestRating" content={5} />
-                                                                <div className="e-rating-wrapper" itemProp="ratingValue" content={5} role="img" aria-label="Rated 5 out of 5">
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="elementor-element elementor-element-7348cb3 elementor-widget elementor-widget-text-editor" data-id="7348cb3" data-element_type="widget" data-widget_type="text-editor.default">
-                                                        <div className="elementor-widget-container">
-                                                            <p>From web development to SEO and social media marketing, Cybertrom’s holistic approach has taken our business to new heights, combining innovation with security for endless possibilities.</p>								</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="swiper-slide swiper-slide-prev" data-slide={1} role="group" aria-roledescription="slide" aria-label="1 / 4" data-swiper-slide-index={0} style={{ "width": "360px", "margin-right": "10px" }} aria-hidden="true" inert>
-                                        <div className="elementor-element elementor-element-e5a9437 animated-slow e-flex e-con-boxed e-con e-child" data-id="e5a9437" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
-                                            <div className="e-con-inner">
-                                                <div className="elementor-element elementor-element-58e1d35 e-con-full e-flex e-con e-child" data-id="58e1d35" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                    <div className="elementor-element elementor-element-2781ad3 e-con-full e-flex e-con e-child" data-id="2781ad3" data-element_type="container">
-                                                        <div className="elementor-element elementor-element-3394fe9 elementor-position-left elementor-position-top elementor-vertical-align-bottom elementor-widget elementor-widget-image-box" data-id="3394fe9" data-element_type="widget" data-widget_type="image-box.default">
-                                                            <div className="elementor-widget-container">
-                                                                <div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img loading="lazy" decoding="async" width={150} height={150} src="https://cybertron-tech.com/wp-content/uploads/2025/02/team-52G3BWD-150x150.jpg" className="attachment-thumbnail size-thumbnail wp-image-334" alt /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">Vinod Agarwal</h3><p className="elementor-image-box-description">IT Director</p></div></div>				</div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="elementor-element elementor-element-1f13f01 elementor-widget elementor-widget-rating" data-id="1f13f01" data-element_type="widget" data-widget_type="rating.default">
-                                                        <div className="elementor-widget-container">
-                                                            <div className="e-rating" itemType="https://schema.org/Rating" itemScope itemProp="reviewRating">
-                                                                <meta itemProp="worstRating" content={0} />
-                                                                <meta itemProp="bestRating" content={5} />
-                                                                <div className="e-rating-wrapper" itemProp="ratingValue" content={5} role="img" aria-label="Rated 5 out of 5">
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="elementor-element elementor-element-477ac2d elementor-widget elementor-widget-text-editor" data-id="477ac2d" data-element_type="widget" data-widget_type="text-editor.default">
-                                                        <div className="elementor-widget-container">
-                                                            <p>Cybertrom transformed our online presence with their innovative web development and digital marketing expertise. Our business has seen remarkable growth thanks to their tailored solutions.</p>								</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-slide={3} role="group" aria-roledescription="slide" aria-label="3 / 4" data-swiper-slide-index={2} style={{ "width": "360px", "margin-right": "10px" }} aria-hidden="true" inert>
-                                        <div className="elementor-element elementor-element-3d60158 animated-slow e-flex e-con-boxed e-con e-child" data-id="3d60158" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
-                                            <div className="e-con-inner">
-                                                <div className="elementor-element elementor-element-3ec6968 e-con-full e-flex e-con e-child" data-id="3ec6968" data-element_type="container">
-                                                    <div className="elementor-element elementor-element-94f63d2 e-con-full e-flex e-con e-child" data-id="94f63d2" data-element_type="container">
-                                                        <div className="elementor-element elementor-element-5ff5abe elementor-position-left elementor-position-top elementor-vertical-align-bottom elementor-widget elementor-widget-image-box" data-id="5ff5abe" data-element_type="widget" data-widget_type="image-box.default">
-                                                            <div className="elementor-widget-container">
-                                                                <div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img loading="lazy" decoding="async" width={150} height={150} src="https://cybertron-tech.com/wp-content/uploads/2025/02/testimonialllll-150x150.jpg" className="attachment-thumbnail size-thumbnail wp-image-343" alt srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/testimonialllll-150x150.jpg 150w, https://cybertron-tech.com/wp-content/uploads/2025/02/testimonialllll.jpg 160w" sizes="(max-width: 150px) 100vw, 150px" /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">Gaurav</h3><p className="elementor-image-box-description">E-commerce Manager</p></div></div>				</div>
+                        <div className="elementor-widget-container">
+                            <Slider {...secondSetting}>
+                                <div
+                                    className="swiper-slide swiper-slide-active"
+                                    data-slide={3}
+                                    role="group"
+                                    aria-roledescription="slide"
+                                    aria-label="3 / 4"
+                                    style={{ width: 360, marginRight: 10 }}
+                                    data-swiper-slide-index={2}
+                                >
+                                    <div
+                                        className="elementor-element elementor-element-3d60158 animated-slow e-flex e-con-boxed e-con e-child"
+                                        data-id="3d60158"
+                                        data-element_type="container"
+                                        data-settings='{"animation":"none"}'
+                                    >
+                                        <div className="e-con-inner">
+                                            <div
+                                                className="elementor-element elementor-element-3ec6968 e-con-full e-flex e-con e-child"
+                                                data-id="3ec6968"
+                                                data-element_type="container"
+                                            >
+                                                <div
+                                                    className="elementor-element elementor-element-94f63d2 e-con-full e-flex e-con e-child"
+                                                    data-id="94f63d2"
+                                                    data-element_type="container"
+                                                >
+                                                    <div
+                                                        className="elementor-element elementor-element-5ff5abe elementor-position-left elementor-position-top elementor-vertical-align-bottom elementor-widget elementor-widget-image-box"
+                                                        data-id="5ff5abe"
+                                                        data-element_type="widget"
+                                                        data-widget_type="image-box.default"
+                                                    >
+                                                        <div className="elementor-widget-container">
+                                                            <div className="elementor-image-box-wrapper">
+                                                                <figure className="elementor-image-box-img">
+                                                                    <img
+                                                                        loading="lazy"
+                                                                        decoding="async"
+                                                                        width={150}
+                                                                        height={150}
+                                                                        src="https://cybertron-tech.com/wp-content/uploads/2025/02/testimonialllll-150x150.jpg"
+                                                                        className="attachment-thumbnail size-thumbnail wp-image-343"
+                                                                        alt=""
+                                                                        srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/testimonialllll-150x150.jpg 150w, https://cybertron-tech.com/wp-content/uploads/2025/02/testimonialllll.jpg 160w"
+                                                                        sizes="(max-width: 150px) 100vw, 150px"
+                                                                    />
+                                                                </figure>
+                                                                <div className="elementor-image-box-content">
+                                                                    <h3 className="elementor-image-box-title">Gaurav</h3>
+                                                                    <p className="elementor-image-box-description">
+                                                                        E-commerce Manager
+                                                                    </p>
+                                                                </div>
+                                                            </div>{" "}
                                                         </div>
                                                     </div>
-                                                    <div className="elementor-element elementor-element-fc87786 elementor-widget elementor-widget-rating" data-id="fc87786" data-element_type="widget" data-widget_type="rating.default">
-                                                        <div className="elementor-widget-container">
-                                                            <div className="e-rating" itemType="https://schema.org/Rating" itemScope itemProp="reviewRating">
-                                                                <meta itemProp="worstRating" content={0} />
-                                                                <meta itemProp="bestRating" content={5} />
-                                                                <div className="e-rating-wrapper" itemProp="ratingValue" content={5} role="img" aria-label="Rated 5 out of 5">
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
+                                                </div>
+                                                <div
+                                                    className="elementor-element elementor-element-fc87786 elementor-widget elementor-widget-rating"
+                                                    data-id="fc87786"
+                                                    data-element_type="widget"
+                                                    data-widget_type="rating.default"
+                                                >
+                                                    <div className="elementor-widget-container">
+                                                        <div
+                                                            className="e-rating"
+                                                            itemType="https://schema.org/Rating"
+                                                            itemScope=""
+                                                            itemProp="reviewRating"
+                                                        >
+                                                            <meta itemProp="worstRating" content={0} />
+                                                            <meta itemProp="bestRating" content={5} />
+                                                            <div
+                                                                className="e-rating-wrapper"
+                                                                itemProp="ratingValue"
+                                                                content={5}
+                                                                role="img"
+                                                                aria-label="Rated 5 out of 5"
+                                                            >
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
                                                                     </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
                                                                     </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
                                                                     </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
                                                                     </div>
-                                                                    <div className="e-icon">
-                                                                        <div className="e-icon-wrapper e-icon-marked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
-                                                                        <div className="e-icon-wrapper e-icon-unmarked">
-                                                                            <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" /></svg>				</div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="elementor-element elementor-element-59dc73f elementor-widget elementor-widget-text-editor" data-id="59dc73f" data-element_type="widget" data-widget_type="text-editor.default">
-                                                        <div className="elementor-widget-container">
-                                                            <p>The team at Cybertrom helped us build a seamless e-commerce platform that not only drives sales but also offers a smooth customer experience. Truly a game-changer!</p>								</div>
+                                                </div>
+                                                <div
+                                                    className="elementor-element elementor-element-59dc73f elementor-widget elementor-widget-text-editor"
+                                                    data-id="59dc73f"
+                                                    data-element_type="widget"
+                                                    data-widget_type="text-editor.default"
+                                                >
+                                                    <div className="elementor-widget-container">
+                                                        <p>
+                                                            The team at Cybertrom helped us build a seamless e-commerce
+                                                            platform that not only drives sales but also offers a smooth
+                                                            customer experience. Truly a game-changer!
+                                                        </p>{" "}
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <span className="swiper-notification" aria-live="assertive" aria-atomic="true" />
-                            </div>
-                            <div className="elementor-swiper-button elementor-swiper-button-prev" role="button" tabIndex={0} aria-label="Previous slide" aria-controls="swiper-wrapper-a6c324a373f0e128">
-                                <svg aria-hidden="true" className="e-font-icon-svg e-fas-chevron-circle-left" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z" /></svg>
-                            </div>
-                            <div className="elementor-swiper-button elementor-swiper-button-next" role="button" tabIndex={0} aria-label="Next slide" aria-controls="swiper-wrapper-a6c324a373f0e128">
-                                <svg aria-hidden="true" className="e-font-icon-svg e-fas-chevron-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" /></svg>
-                            </div>
+
+
+                                <div
+                                    className="swiper-slide swiper-slide-next"
+                                    data-slide={4}
+                                    role="group"
+                                    aria-roledescription="slide"
+                                    aria-label="4 / 4"
+                                    style={{ width: 360, marginRight: 10 }}
+                                    data-swiper-slide-index={3}
+                                >
+                                    <div
+                                        className="elementor-element elementor-element-5eea65f animated-slow e-flex e-con-boxed e-con e-child"
+                                        data-id="5eea65f"
+                                        data-element_type="container"
+                                        data-settings='{"animation":"none"}'
+                                    >
+                                        <div className="e-con-inner">
+                                            <div
+                                                className="elementor-element elementor-element-de56b7b e-con-full e-flex e-con e-child"
+                                                data-id="de56b7b"
+                                                data-element_type="container"
+                                            >
+                                                <div
+                                                    className="elementor-element elementor-element-170e512 e-con-full e-flex e-con e-child"
+                                                    data-id="170e512"
+                                                    data-element_type="container"
+                                                >
+                                                    <div
+                                                        className="elementor-element elementor-element-dade242 elementor-position-left elementor-position-top elementor-vertical-align-bottom elementor-widget elementor-widget-image-box"
+                                                        data-id="dade242"
+                                                        data-element_type="widget"
+                                                        data-widget_type="image-box.default"
+                                                    >
+                                                        <div className="elementor-widget-container">
+                                                            <div className="elementor-image-box-wrapper">
+                                                                <figure className="elementor-image-box-img">
+                                                                    <img
+                                                                        loading="lazy"
+                                                                        decoding="async"
+                                                                        width={150}
+                                                                        height={150}
+                                                                        src="https://cybertron-tech.com/wp-content/uploads/2025/02/team-SMNZUJQ-150x150.jpg"
+                                                                        className="attachment-thumbnail size-thumbnail wp-image-333"
+                                                                        alt=""
+                                                                    />
+                                                                </figure>
+                                                                <div className="elementor-image-box-content">
+                                                                    <h3 className="elementor-image-box-title">Mark T.</h3>
+                                                                    <p className="elementor-image-box-description">Founder</p>
+                                                                </div>
+                                                            </div>{" "}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    className="elementor-element elementor-element-360607f elementor-widget elementor-widget-rating"
+                                                    data-id="360607f"
+                                                    data-element_type="widget"
+                                                    data-widget_type="rating.default"
+                                                >
+                                                    <div className="elementor-widget-container">
+                                                        <div
+                                                            className="e-rating"
+                                                            itemType="https://schema.org/Rating"
+                                                            itemScope=""
+                                                            itemProp="reviewRating"
+                                                        >
+                                                            <meta itemProp="worstRating" content={0} />
+                                                            <meta itemProp="bestRating" content={5} />
+                                                            <div
+                                                                className="e-rating-wrapper"
+                                                                itemProp="ratingValue"
+                                                                content={5}
+                                                                role="img"
+                                                                aria-label="Rated 5 out of 5"
+                                                            >
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    className="elementor-element elementor-element-7348cb3 elementor-widget elementor-widget-text-editor"
+                                                    data-id="7348cb3"
+                                                    data-element_type="widget"
+                                                    data-widget_type="text-editor.default"
+                                                >
+                                                    <div className="elementor-widget-container">
+                                                        <p>
+                                                            From web development to SEO and social media marketing,
+                                                            Cybertrom’s holistic approach has taken our business to new
+                                                            heights, combining innovation with security for endless
+                                                            possibilities.
+                                                        </p>{" "}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div
+                                    className="swiper-slide swiper-slide-duplicate"
+                                    data-slide={1}
+                                    role="group"
+                                    aria-roledescription="slide"
+                                    aria-label="1 / 4"
+                                    style={{ width: 360, marginRight: 10 }}
+                                    data-swiper-slide-index={0}
+                                >
+                                    <div
+                                        className="elementor-element elementor-element-e5a9437 animated-slow e-flex e-con-boxed e-con e-child"
+                                        data-id="e5a9437"
+                                        data-element_type="container"
+                                        data-settings='{"animation":"none"}'
+                                    >
+                                        <div className="e-con-inner">
+                                            <div
+                                                className="elementor-element elementor-element-58e1d35 e-con-full e-flex e-con e-child"
+                                                data-id="58e1d35"
+                                                data-element_type="container"
+                                                data-settings='{"background_background":"classic"}'
+                                            >
+                                                <div
+                                                    className="elementor-element elementor-element-2781ad3 e-con-full e-flex e-con e-child"
+                                                    data-id="2781ad3"
+                                                    data-element_type="container"
+                                                >
+                                                    <div
+                                                        className="elementor-element elementor-element-3394fe9 elementor-position-left elementor-position-top elementor-vertical-align-bottom elementor-widget elementor-widget-image-box"
+                                                        data-id="3394fe9"
+                                                        data-element_type="widget"
+                                                        data-widget_type="image-box.default"
+                                                    >
+                                                        <div className="elementor-widget-container">
+                                                            <div className="elementor-image-box-wrapper">
+                                                                <figure className="elementor-image-box-img">
+                                                                    <img
+                                                                        loading="lazy"
+                                                                        decoding="async"
+                                                                        width={150}
+                                                                        height={150}
+                                                                        src="https://cybertron-tech.com/wp-content/uploads/2025/02/team-52G3BWD-150x150.jpg"
+                                                                        className="attachment-thumbnail size-thumbnail wp-image-334"
+                                                                        alt=""
+                                                                    />
+                                                                </figure>
+                                                                <div className="elementor-image-box-content">
+                                                                    <h3 className="elementor-image-box-title">Vinod Agarwal</h3>
+                                                                    <p className="elementor-image-box-description">IT Director</p>
+                                                                </div>
+                                                            </div>{" "}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    className="elementor-element elementor-element-1f13f01 elementor-widget elementor-widget-rating"
+                                                    data-id="1f13f01"
+                                                    data-element_type="widget"
+                                                    data-widget_type="rating.default"
+                                                >
+                                                    <div className="elementor-widget-container">
+                                                        <div
+                                                            className="e-rating"
+                                                            itemType="https://schema.org/Rating"
+                                                            itemScope=""
+                                                            itemProp="reviewRating"
+                                                        >
+                                                            <meta itemProp="worstRating" content={0} />
+                                                            <meta itemProp="bestRating" content={5} />
+                                                            <div
+                                                                className="e-rating-wrapper"
+                                                                itemProp="ratingValue"
+                                                                content={5}
+                                                                role="img"
+                                                                aria-label="Rated 5 out of 5"
+                                                            >
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    className="elementor-element elementor-element-477ac2d elementor-widget elementor-widget-text-editor"
+                                                    data-id="477ac2d"
+                                                    data-element_type="widget"
+                                                    data-widget_type="text-editor.default"
+                                                >
+                                                    <div className="elementor-widget-container">
+                                                        <p>
+                                                            Cybertrom transformed our online presence with their innovative
+                                                            web development and digital marketing expertise. Our business has
+                                                            seen remarkable growth thanks to their tailored solutions.
+                                                        </p>{" "}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div
+                                    className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                                    data-slide={2}
+                                    role="group"
+                                    aria-roledescription="slide"
+                                    aria-label="2 / 4"
+                                    style={{ width: 360, marginRight: 10 }}
+                                    data-swiper-slide-index={1}
+                                >
+                                    <div
+                                        className="elementor-element elementor-element-43958c3 animated-slow e-flex e-con-boxed e-con e-child"
+                                        data-id="43958c3"
+                                        data-element_type="container"
+                                        data-settings='{"animation":"none"}'
+                                    >
+                                        <div className="e-con-inner">
+                                            <div
+                                                className="elementor-element elementor-element-0b82941 e-con-full e-flex e-con e-child"
+                                                data-id="0b82941"
+                                                data-element_type="container"
+                                            >
+                                                <div
+                                                    className="elementor-element elementor-element-3732acf e-con-full e-flex e-con e-child"
+                                                    data-id="3732acf"
+                                                    data-element_type="container"
+                                                >
+                                                    <div
+                                                        className="elementor-element elementor-element-23d9963 elementor-position-left elementor-position-top elementor-vertical-align-bottom elementor-widget elementor-widget-image-box"
+                                                        data-id="23d9963"
+                                                        data-element_type="widget"
+                                                        data-widget_type="image-box.default"
+                                                    >
+                                                        <div className="elementor-widget-container">
+                                                            <div className="elementor-image-box-wrapper">
+                                                                <figure className="elementor-image-box-img">
+                                                                    <img
+                                                                        loading="lazy"
+                                                                        decoding="async"
+                                                                        width={150}
+                                                                        height={150}
+                                                                        src="https://cybertron-tech.com/wp-content/uploads/2025/02/testimonial-150x150.jpg"
+                                                                        className="attachment-thumbnail size-thumbnail wp-image-342"
+                                                                        alt=""
+                                                                        srcSet="https://cybertron-tech.com/wp-content/uploads/2025/02/testimonial-150x150.jpg 150w, https://cybertron-tech.com/wp-content/uploads/2025/02/testimonial.jpg 160w"
+                                                                        sizes="(max-width: 150px) 100vw, 150px"
+                                                                    />
+                                                                </figure>
+                                                                <div className="elementor-image-box-content">
+                                                                    <h3 className="elementor-image-box-title">Shally</h3>
+                                                                    <p className="elementor-image-box-description">CEO</p>
+                                                                </div>
+                                                            </div>{" "}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    className="elementor-element elementor-element-bdf7cd5 elementor-widget elementor-widget-rating"
+                                                    data-id="bdf7cd5"
+                                                    data-element_type="widget"
+                                                    data-widget_type="rating.default"
+                                                >
+                                                    <div className="elementor-widget-container">
+                                                        <div
+                                                            className="e-rating"
+                                                            itemType="https://schema.org/Rating"
+                                                            itemScope=""
+                                                            itemProp="reviewRating"
+                                                        >
+                                                            <meta itemProp="worstRating" content={0} />
+                                                            <meta itemProp="bestRating" content={5} />
+                                                            <div
+                                                                className="e-rating-wrapper"
+                                                                itemProp="ratingValue"
+                                                                content={5}
+                                                                role="img"
+                                                                aria-label="Rated 5 out of 5"
+                                                            >
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="e-icon">
+                                                                    <div className="e-icon-wrapper e-icon-marked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                    <div className="e-icon-wrapper e-icon-unmarked">
+                                                                        <svg
+                                                                            aria-hidden="true"
+                                                                            className="e-font-icon-svg e-eicon-star"
+                                                                            viewBox="0 0 1000 1000"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z" />
+                                                                        </svg>{" "}
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    className="elementor-element elementor-element-40c2b5b elementor-widget elementor-widget-text-editor"
+                                                    data-id="40c2b5b"
+                                                    data-element_type="widget"
+                                                    data-widget_type="text-editor.default"
+                                                >
+                                                    <div className="elementor-widget-container">
+                                                        <p>
+                                                            Thanks to Cybertrom’s cutting-edge cybersecurity services, we now
+                                                            feel confident that our data is safe, giving us peace of mind to
+                                                            focus on business growth.
+                                                        </p>{" "}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </Slider>
                         </div>
+
+
                     </div>
                 </div>
             </div>
@@ -1192,10 +1647,11 @@ const Home = () => {
                         <div className="elementor-widget-container">
                             <h2 className="elementor-heading-title elementor-size-default">Latest News</h2>				</div>
                     </div>
+                    
                     <div className="elementor-element elementor-element-ef83494 elementor-arrows-position-outside elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-loop-carousel e-widget-swiper" data-id="ef83494" data-element_type="widget" data-settings="{&quot;template_id&quot;:&quot;1058&quot;,&quot;_skin&quot;:&quot;post&quot;,&quot;slides_to_show&quot;:&quot;3&quot;,&quot;slides_to_show_tablet&quot;:&quot;2&quot;,&quot;slides_to_show_mobile&quot;:&quot;1&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;edit_handle_selector&quot;:&quot;.elementor-widget-container&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;offset_sides&quot;:&quot;none&quot;,&quot;arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="loop-carousel.post">
                         <div className="elementor-widget-container">
                             <div className="swiper elementor-loop-container elementor-grid swiper-initialized swiper-horizontal" dir="ltr">
-                                <div className="swiper-wrapper" aria-live="off" id="swiper-wrapper-5885dc1ffa36b014" style={{ "WebkitTransitionDuration": "0ms", "transitionDuration": "0ms", "WebkitTransform": "translate3d(-3633.33px, 0px, 0px)", "msTransform": "translate3d(-3633.33px, 0px, 0px)", "transform": "translate3d(-3633.33px, 0px, 0px)" }}><div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1459 post-1459 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-blog tag-latest swiper-slide-duplicate swiper-slide-duplicate-active" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="8 / 10" data-swiper-slide-index={7} aria-hidden="true" inert style={{ "width": "353.333px", "margin-right": "10px" }}>
+                                <div className="swiper-wrapper" aria-live="off" id="swiper-wrapper-5885dc1ffa36b014" style={{ "WebkitTransitionDuration": "0ms", "transitionDuration": "0ms", "WebkitTransform": "translate3d(-3633.33px, 0px, 0px)", "msTransform": "translate3d(-3633.33px, 0px, 0px)", "transform": "translate3d(-3633.33px, 0px, 0px)" }}><div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1459 post-1459 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-blog tag-latest swiper-slide-duplicate swiper-slide-duplicate-active" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="8 / 10" data-swiper-slide-index={7} aria-hidden="true" inert style={{ "width": "353.333px", "marginRight": "10px" }}>
                                     <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                         <div className="e-con-inner">
                                             <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1232,7 +1688,8 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div><div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1403 post-1403 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-latest-news swiper-slide-duplicate swiper-slide-duplicate-next" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="9 / 10" data-swiper-slide-index={8} aria-hidden="true" inert style={{ "width": "353.333px", "margin-right": "10px" }}>
+                                </div>
+                                    <div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1403 post-1403 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-latest-news swiper-slide-duplicate swiper-slide-duplicate-next" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="9 / 10" data-swiper-slide-index={8} aria-hidden="true" inert style={{ "width": "353.333px", "marginRight": "10px" }}>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1269,7 +1726,8 @@ const Home = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div><div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1081 post-1081 post type-post status-publish format-standard has-post-thumbnail hentry category-web-solution swiper-slide-duplicate" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="10 / 10" data-swiper-slide-index={9} aria-hidden="true" inert style={{ "width": "353.333px", "margin-right": "10px" }}>
+                                    </div>
+                                    <div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1081 post-1081 post type-post status-publish format-standard has-post-thumbnail hentry category-web-solution swiper-slide-duplicate" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="10 / 10" data-swiper-slide-index={9} aria-hidden="true" inert style={{ "width": "353.333px", "marginRight": "10px" }}>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1307,7 +1765,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1553 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1553 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/vpn.webp\");}" }} /><style id="loop-1058" dangerouslySetInnerHTML={{ __html: ".elementor-1058 .elementor-element.elementor-element-b005434{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;box-shadow:8px 8px 10px 0px rgba(0,0,0,0.5);--padding-top:15px;--padding-bottom:15px;--padding-left:15px;--padding-right:15px;}.elementor-1058 .elementor-element.elementor-element-b005434:hover{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);}.elementor-1058 .elementor-element.elementor-element-9c95904{--display:flex;--gap:0px 0px;--row-gap:0px;--column-gap:0px;border-style:none;--border-style:none;--border-radius:10px 10px 10px 10px;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-1058 .elementor-element.elementor-element-6cf45a8{--display:flex;--justify-content:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;border-style:none;--border-style:none;--border-radius:13px 13px 13px 13px;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-1058 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .elementor-1058 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#3A3A3A00;background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-1058 .elementor-element.elementor-element-73bb0fa{--spacer-size:50px;}.elementor-1058 .elementor-element.elementor-element-73bb0fa > .elementor-widget-container{padding:100px 0px 190px 0px;}.elementor-1058 .elementor-element.elementor-element-d7c6a63{--display:flex;--gap:10px 10px;--row-gap:10px;--column-gap:10px;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:16px;--padding-bottom:16px;--padding-left:16px;--padding-right:16px;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;fontSize:var( --e-global-typography-primary-fontSize );font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-1058 .elementor-element.elementor-element-0e58752 > .elementor-widget-container{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);}.elementor-1058 .elementor-element.elementor-element-0e58752 .elementor-heading-title{font-family:\"Inter\", Sans-serif;fontSize:22px;font-weight:600;line-height:26px;-webkit-text-stroke-color:#000;stroke:#000;color:#FFFFFF;}.elementor-1058 .elementor-element.elementor-element-0e58752 .elementor-heading-title:hover{color:#A1E3FF;}.elementor-widget-theme-post-excerpt .elementor-widget-container{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;fontSize:var( --e-global-typography-text-fontSize );font-weight:var( --e-global-typography-text-font-weight );}.elementor-1058 .elementor-element.elementor-element-68f0856 .elementor-widget-container{text-align:justify;color:var( --e-global-color-text );font-family:\"Inter Tight\", Sans-serif;fontSize:14px;font-weight:400;line-height:1.2rem;}.elementor-widget-button .elementor-button{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;fontSize:var( --e-global-typography-accent-fontSize );font-weight:var( --e-global-typography-accent-font-weight );}.elementor-1058 .elementor-element.elementor-element-dec7c57 .elementor-button{background-color:#77777700;font-family:\"Inter\", Sans-serif;fontSize:14px;font-weight:400;line-height:1.2em;fill:#E7E7E7;color:#E7E7E7;border-radius:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-1058 .elementor-element.elementor-element-dec7c57{width:auto;max-width:auto;}.elementor-1058 .elementor-element.elementor-element-dec7c57 .elementor-button:hover, .elementor-1058 .elementor-element.elementor-element-dec7c57 .elementor-button:focus{color:#A1E3FF;}.elementor-1058 .elementor-element.elementor-element-dec7c57 .elementor-button:hover svg, .elementor-1058 .elementor-element.elementor-element-dec7c57 .elementor-button:focus svg{fill:#A1E3FF;}@media(max-width:1024px){.elementor-widget-heading .elementor-heading-title{fontSize:var( --e-global-typography-primary-fontSize );}.elementor-1058 .elementor-element.elementor-element-0e58752 .elementor-heading-title{fontSize:26px;}.elementor-widget-theme-post-excerpt .elementor-widget-container{fontSize:var( --e-global-typography-text-fontSize );}.elementor-widget-button .elementor-button{fontSize:var( --e-global-typography-accent-fontSize );}}@media(max-width:767px){.elementor-widget-heading .elementor-heading-title{fontSize:var( --e-global-typography-primary-fontSize );}.elementor-1058 .elementor-element.elementor-element-0e58752 .elementor-heading-title{fontSize:24px;}.elementor-widget-theme-post-excerpt .elementor-widget-container{fontSize:var( --e-global-typography-text-fontSize );}.elementor-1058 .elementor-element.elementor-element-68f0856 .elementor-widget-container{fontSize:14px;}.elementor-widget-button .elementor-button{fontSize:var( --e-global-typography-accent-fontSize );}.elementor-1058 .elementor-element.elementor-element-dec7c57 .elementor-button{fontSize:10px;}}/* Start custom CSS for container, class: .elementor-element-d7c6a63 *//*Excerpt Line Count*/\n.elementor-1058 .elementor-element.elementor-element-d7c6a63 .elementor-post__excerpt{ overflow: hidden; \n    width:100%; \n    display: -webkit-box; \n    -webkit-line-clamp:3;\n    -webkit-box-orient: vertical; \n}\n/*Title Line Count*/\n.elementor-1058 .elementor-element.elementor-element-d7c6a63 .elementor-post__title{ overflow: hidden; \n    width:100%;\n    display: -webkit-box; \n    -webkit-line-clamp: 2;\n    -webkit-box-orient: vertical; \n}/* End custom CSS */\n/* Start custom CSS for container, class: .elementor-element-9c95904 *//*Excerpt Line Count*/\n.elementor-1058 .elementor-element.elementor-element-9c95904 .elementor-post__excerpt{ overflow: hidden; \n    width:100%; \n    display: -webkit-box; \n    -webkit-line-clamp: 2;\n    -webkit-box-orient: vertical; \n}\n/*Title Line Count*/\n.elementor-1058 .elementor-element.elementor-element-9c95904 .elementor-post__title{ overflow: hidden; \n    width:100%;\n    display: -webkit-box; \n    -webkit-line-clamp: 2;\n    -webkit-box-orient: vertical; \n}/* End custom CSS */" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1553 post-1553 post type-post status-publish format-standard has-post-thumbnail hentry category-vpn tag-blog tag-cyber-security tag-vpn" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="1 / 10" data-swiper-slide-index={0} style={{ "width": "353.333px", "margin-right": "10px" }} aria-hidden="true" inert>
+                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1553 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1553 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/vpn.webp\");}" }} /><style id="loop-1058" dangerouslySetInnerHTML={{ __html: ".elementor-1058 .elementor-element.elementor-element-b005434{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;box-shadow:8px 8px 10px 0px rgba(0,0,0,0.5);--padding-top:15px;--padding-bottom:15px;--padding-left:15px;--padding-right:15px;}.elementor-1058 .elementor-element.elementor-element-b005434:hover{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);}.elementor-1058 .elementor-element.elementor-element-9c95904{--display:flex;--gap:0px 0px;--row-gap:0px;--column-gap:0px;border-style:none;--border-style:none;--border-radius:10px 10px 10px 10px;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--marginRight:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-1058 .elementor-element.elementor-element-6cf45a8{--display:flex;--justify-content:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;border-style:none;--border-style:none;--border-radius:13px 13px 13px 13px;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--marginRight:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-1058 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .elementor-1058 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#3A3A3A00;background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-1058 .elementor-element.elementor-element-73bb0fa{--spacer-size:50px;}.elementor-1058 .elementor-element.elementor-element-73bb0fa > .elementor-widget-container{padding:100px 0px 190px 0px;}.elementor-1058 .elementor-element.elementor-element-d7c6a63{--display:flex;--gap:10px 10px;--row-gap:10px;--column-gap:10px;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--marginRight:0px;--padding-top:16px;--padding-bottom:16px;--padding-left:16px;--padding-right:16px;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;fontSize:var( --e-global-typography-primary-fontSize );font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-1058 .elementor-element.elementor-element-0e58752 > .elementor-widget-container{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);}.elementor-1058 .elementor-element.elementor-element-0e58752 .elementor-heading-title{font-family:\"Inter\", Sans-serif;fontSize:22px;font-weight:600;line-height:26px;-webkit-text-stroke-color:#000;stroke:#000;color:#FFFFFF;}.elementor-1058 .elementor-element.elementor-element-0e58752 .elementor-heading-title:hover{color:#A1E3FF;}.elementor-widget-theme-post-excerpt .elementor-widget-container{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;fontSize:var( --e-global-typography-text-fontSize );font-weight:var( --e-global-typography-text-font-weight );}.elementor-1058 .elementor-element.elementor-element-68f0856 .elementor-widget-container{text-align:justify;color:var( --e-global-color-text );font-family:\"Inter Tight\", Sans-serif;fontSize:14px;font-weight:400;line-height:1.2rem;}.elementor-widget-button .elementor-button{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;fontSize:var( --e-global-typography-accent-fontSize );font-weight:var( --e-global-typography-accent-font-weight );}.elementor-1058 .elementor-element.elementor-element-dec7c57 .elementor-button{background-color:#77777700;font-family:\"Inter\", Sans-serif;fontSize:14px;font-weight:400;line-height:1.2em;fill:#E7E7E7;color:#E7E7E7;border-radius:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-1058 .elementor-element.elementor-element-dec7c57{width:auto;max-width:auto;}.elementor-1058 .elementor-element.elementor-element-dec7c57 .elementor-button:hover, .elementor-1058 .elementor-element.elementor-element-dec7c57 .elementor-button:focus{color:#A1E3FF;}.elementor-1058 .elementor-element.elementor-element-dec7c57 .elementor-button:hover svg, .elementor-1058 .elementor-element.elementor-element-dec7c57 .elementor-button:focus svg{fill:#A1E3FF;}@media(max-width:1024px){.elementor-widget-heading .elementor-heading-title{fontSize:var( --e-global-typography-primary-fontSize );}.elementor-1058 .elementor-element.elementor-element-0e58752 .elementor-heading-title{fontSize:26px;}.elementor-widget-theme-post-excerpt .elementor-widget-container{fontSize:var( --e-global-typography-text-fontSize );}.elementor-widget-button .elementor-button{fontSize:var( --e-global-typography-accent-fontSize );}}@media(max-width:767px){.elementor-widget-heading .elementor-heading-title{fontSize:var( --e-global-typography-primary-fontSize );}.elementor-1058 .elementor-element.elementor-element-0e58752 .elementor-heading-title{fontSize:24px;}.elementor-widget-theme-post-excerpt .elementor-widget-container{fontSize:var( --e-global-typography-text-fontSize );}.elementor-1058 .elementor-element.elementor-element-68f0856 .elementor-widget-container{fontSize:14px;}.elementor-widget-button .elementor-button{fontSize:var( --e-global-typography-accent-fontSize );}.elementor-1058 .elementor-element.elementor-element-dec7c57 .elementor-button{fontSize:10px;}}/* Start custom CSS for container, class: .elementor-element-d7c6a63 *//*Excerpt Line Count*/\n.elementor-1058 .elementor-element.elementor-element-d7c6a63 .elementor-post__excerpt{ overflow: hidden; \n    width:100%; \n    display: -webkit-box; \n    -webkit-line-clamp:3;\n    -webkit-box-orient: vertical; \n}\n/*Title Line Count*/\n.elementor-1058 .elementor-element.elementor-element-d7c6a63 .elementor-post__title{ overflow: hidden; \n    width:100%;\n    display: -webkit-box; \n    -webkit-line-clamp: 2;\n    -webkit-box-orient: vertical; \n}/* End custom CSS */\n/* Start custom CSS for container, class: .elementor-element-9c95904 *//*Excerpt Line Count*/\n.elementor-1058 .elementor-element.elementor-element-9c95904 .elementor-post__excerpt{ overflow: hidden; \n    width:100%; \n    display: -webkit-box; \n    -webkit-line-clamp: 2;\n    -webkit-box-orient: vertical; \n}\n/*Title Line Count*/\n.elementor-1058 .elementor-element.elementor-element-9c95904 .elementor-post__title{ overflow: hidden; \n    width:100%;\n    display: -webkit-box; \n    -webkit-line-clamp: 2;\n    -webkit-box-orient: vertical; \n}/* End custom CSS */" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1553 post-1553 post type-post status-publish format-standard has-post-thumbnail hentry category-vpn tag-blog tag-cyber-security tag-vpn" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="1 / 10" data-swiper-slide-index={0} style={{ "width": "353.333px", "marginRight": "10px" }} aria-hidden="true" inert>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1345,7 +1803,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1537 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1537 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/open.webp\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1537 post-1537 post type-post status-publish format-standard has-post-thumbnail hentry category-cloud-it-solution tag-ai tag-cloud-it-solution" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="2 / 10" data-swiper-slide-index={1} style={{ "width": "353.333px", "margin-right": "10px" }} aria-hidden="true" inert>
+                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1537 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1537 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/open.webp\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1537 post-1537 post type-post status-publish format-standard has-post-thumbnail hentry category-cloud-it-solution tag-ai tag-cloud-it-solution" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="2 / 10" data-swiper-slide-index={1} style={{ "width": "353.333px", "marginRight": "10px" }} aria-hidden="true" inert>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1383,7 +1841,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1515 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1515 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/4q24-emerging-risk-universe-map.png\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1515 post-1515 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-blog" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="3 / 10" data-swiper-slide-index={2} style={{ "width": "353.333px", "margin-right": "10px" }} aria-hidden="true" inert>
+                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1515 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1515 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/4q24-emerging-risk-universe-map.png\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1515 post-1515 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-blog" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="3 / 10" data-swiper-slide-index={2} style={{ "width": "353.333px", "marginRight": "10px" }} aria-hidden="true" inert>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1421,7 +1879,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1502 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1502 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/p1.webp\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1502 post-1502 post type-post status-publish format-standard has-post-thumbnail hentry category-brand tag-blog tag-latest-news" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="4 / 10" data-swiper-slide-index={3} style={{ "width": "353.333px", "margin-right": "10px" }} aria-hidden="true" inert>
+                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1502 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1502 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/p1.webp\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1502 post-1502 post type-post status-publish format-standard has-post-thumbnail hentry category-brand tag-blog tag-latest-news" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="4 / 10" data-swiper-slide-index={3} style={{ "width": "353.333px", "marginRight": "10px" }} aria-hidden="true" inert>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1459,7 +1917,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1496 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1496 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/c1.webp\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1496 post-1496 post type-post status-publish format-standard has-post-thumbnail hentry category-cyber-security tag-cyber-security tag-latest-news" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="5 / 10" data-swiper-slide-index={4} style={{ "width": "353.333px", "margin-right": "10px" }} aria-hidden="true" inert>
+                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1496 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1496 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/c1.webp\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1496 post-1496 post type-post status-publish format-standard has-post-thumbnail hentry category-cyber-security tag-cyber-security tag-latest-news" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="5 / 10" data-swiper-slide-index={4} style={{ "width": "353.333px", "marginRight": "10px" }} aria-hidden="true" inert>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1497,7 +1955,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1488 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1488 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/deep.webp\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1488 post-1488 post type-post status-publish format-standard has-post-thumbnail hentry category-cyber-security tag-cyber-security tag-latest-news" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="6 / 10" data-swiper-slide-index={5} style={{ "width": "353.333px", "margin-right": "10px" }} aria-hidden="true" inert>
+                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1488 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1488 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/deep.webp\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1488 post-1488 post type-post status-publish format-standard has-post-thumbnail hentry category-cyber-security tag-cyber-security tag-latest-news" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="6 / 10" data-swiper-slide-index={5} style={{ "width": "353.333px", "marginRight": "10px" }} aria-hidden="true" inert>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1535,7 +1993,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1474 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1474 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/6.webp\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1474 post-1474 post type-post status-publish format-standard has-post-thumbnail hentry category-services tag-blog tag-latest-news swiper-slide-prev" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="7 / 10" data-swiper-slide-index={6} style={{ "width": "353.333px", "margin-right": "10px" }} aria-hidden="true" inert>
+                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1474 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1474 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/6.webp\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1474 post-1474 post type-post status-publish format-standard has-post-thumbnail hentry category-services tag-blog tag-latest-news swiper-slide-prev" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="7 / 10" data-swiper-slide-index={6} style={{ "width": "353.333px", "marginRight": "10px" }} aria-hidden="true" inert>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1573,7 +2031,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1459 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1459 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/TQg3osv6QfkZRyTxPdJR2k-1600-80.jpg.webp\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1459 post-1459 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-blog tag-latest swiper-slide-active" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="8 / 10" data-swiper-slide-index={7} style={{ "width": "353.333px", "margin-right": "10px" }}>
+                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1459 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1459 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/TQg3osv6QfkZRyTxPdJR2k-1600-80.jpg.webp\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1459 post-1459 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-blog tag-latest swiper-slide-active" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="8 / 10" data-swiper-slide-index={7} style={{ "width": "353.333px", "marginRight": "10px" }}>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1611,7 +2069,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1403 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1403 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/ai-generated-8634900_1280.jpg\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1403 post-1403 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-latest-news swiper-slide-next" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="9 / 10" data-swiper-slide-index={8} style={{ "width": "353.333px", "margin-right": "10px" }}>
+                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1403 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1403 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/ai-generated-8634900_1280.jpg\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1403 post-1403 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-latest-news swiper-slide-next" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="9 / 10" data-swiper-slide-index={8} style={{ "width": "353.333px", "marginRight": "10px" }}>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1649,7 +2107,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1081 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1081 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/WhatsApp_Image_2025-02-24_at_6.38.50_PM-removebg-preview.png\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1081 post-1081 post type-post status-publish format-standard has-post-thumbnail hentry category-web-solution" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="10 / 10" data-swiper-slide-index={9} style={{ "width": "353.333px", "margin-right": "10px" }}>
+                                    <style id="loop-dynamic-1058" dangerouslySetInnerHTML={{ __html: ".e-loop-item-1081 .elementor-element.elementor-element-6cf45a8:not(.elementor-motion-effects-element-type-background), .e-loop-item-1081 .elementor-element.elementor-element-6cf45a8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url(\"https://cybertron-tech.com/wp-content/uploads/2025/02/WhatsApp_Image_2025-02-24_at_6.38.50_PM-removebg-preview.png\");}" }} />		<div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1081 post-1081 post type-post status-publish format-standard has-post-thumbnail hentry category-web-solution" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="10 / 10" data-swiper-slide-index={9} style={{ "width": "353.333px", "marginRight": "10px" }}>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1687,7 +2145,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1553 post-1553 post type-post status-publish format-standard has-post-thumbnail hentry category-vpn tag-blog tag-cyber-security tag-vpn swiper-slide-duplicate" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="1 / 10" data-swiper-slide-index={0} style={{ "width": "353.333px", "margin-right": "10px" }}>
+                                    <div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1553 post-1553 post type-post status-publish format-standard has-post-thumbnail hentry category-vpn tag-blog tag-cyber-security tag-vpn swiper-slide-duplicate" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="1 / 10" data-swiper-slide-index={0} style={{ "width": "353.333px", "marginRight": "10px" }}>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1724,7 +2182,8 @@ const Home = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div><div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1537 post-1537 post type-post status-publish format-standard has-post-thumbnail hentry category-cloud-it-solution tag-ai tag-cloud-it-solution swiper-slide-duplicate" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="2 / 10" data-swiper-slide-index={1} style={{ "width": "353.333px", "margin-right": "10px" }}>
+                                    </div>
+                                    <div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1537 post-1537 post type-post status-publish format-standard has-post-thumbnail hentry category-cloud-it-solution tag-ai tag-cloud-it-solution swiper-slide-duplicate" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="2 / 10" data-swiper-slide-index={1} style={{ "width": "353.333px", "marginRight": "10px" }}>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1761,7 +2220,8 @@ const Home = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div><div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1515 post-1515 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-blog swiper-slide-duplicate" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="3 / 10" data-swiper-slide-index={2} style={{ "width": "353.333px", "margin-right": "10px" }}>
+                                    </div>
+                                    <div data-elementor-type="loop-item" data-elementor-id={1058} className="elementor elementor-1058 swiper-slide e-loop-item e-loop-item-1515 post-1515 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-blog swiper-slide-duplicate" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle={1} aria-label="3 / 10" data-swiper-slide-index={2} style={{ "width": "353.333px", "marginRight": "10px" }}>
                                         <div className="elementor-element elementor-element-b005434 e-flex e-con-boxed e-con e-parent" data-id="b005434" data-element_type="container">
                                             <div className="e-con-inner">
                                                 <div className="elementor-element elementor-element-9c95904 e-con-full e-flex e-con e-child" data-id="9c95904" data-element_type="container">
@@ -1798,7 +2258,8 @@ const Home = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div></div>
+                                    </div>
+                                </div>
                                 <span className="swiper-notification" aria-live="assertive" aria-atomic="true" /></div>
                             <div className="elementor-swiper-button elementor-swiper-button-prev" role="button" tabIndex={0} aria-label="Previous slide" aria-controls="swiper-wrapper-5885dc1ffa36b014">
                                 <svg aria-hidden="true" className="e-font-icon-svg e-eicon-chevron-left" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z" /></svg>			</div>

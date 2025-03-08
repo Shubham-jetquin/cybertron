@@ -49,7 +49,7 @@
     --margin-top: 0px;
     --margin-bottom: 100px;
     --margin-left: 15px;
-    --margin-right: 0px;
+    --marginRight: 0px;
 }
 
 .elementor-10 .elementor-element.elementor-element-6819c3a:not(.elementor-motion-effects-element-type-background),
@@ -69,7 +69,7 @@
     --margin-top: 0px;
     --margin-bottom: 0px;
     --margin-left: 0px;
-    --margin-right: 0px;
+    --marginRight: 0px;
     --padding-top: 20px;
     --padding-bottom: 0px;
     --padding-left: 60px;
@@ -162,12 +162,12 @@
 }
 
 .elementor-10 .elementor-element.elementor-element-738be58 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
-    margin-right: calc(11px/2);
+    marginRight: calc(11px/2);
     margin-left: calc(11px/2);
 }
 
 .elementor-10 .elementor-element.elementor-element-738be58 .elementor-icon-list-items.elementor-inline-items {
-    margin-right: calc(-11px/2);
+    marginRight: calc(-11px/2);
     margin-left: calc(-11px/2);
 }
 
@@ -213,7 +213,7 @@ body:not(.rtl) .elementor-10 .elementor-element.elementor-element-738be58 .eleme
     --margin-top: 0px;
     --margin-bottom: 0px;
     --margin-left: 0px;
-    --margin-right: 0px;
+    --marginRight: 0px;
     --padding-top: 0px;
     --padding-bottom: 0px;
     --padding-left: 0px;

@@ -60,7 +60,7 @@
     --margin-top: 0px;
     --margin-bottom: 0px;
     --margin-left: 0px;
-    --margin-right: 0px;
+    --marginRight: 0px;
     --padding-top: 150px;
     --padding-bottom: 100px;
     --padding-left: 0px;
@@ -315,7 +315,7 @@
 
 .elementor-352 .elementor-element.elementor-element-e2a8ddb .elementor-form-fields-wrapper {
     margin-left: calc( -8px/2);
-    margin-right: calc( -8px/2);
+    marginRight: calc( -8px/2);
     margin-bottom: -8px;
 }
 
@@ -451,7 +451,7 @@ body .elementor-352 .elementor-element.elementor-element-e2a8ddb .elementor-labe
     --margin-top: 0px;
     --margin-bottom: 0px;
     --margin-left: 0px;
-    --margin-right: 0px;
+    --marginRight: 0px;
     --padding-top: 150px;
     --padding-bottom: 100px;
     --padding-left: 0px;
@@ -516,7 +516,7 @@ body .elementor-352 .elementor-element.elementor-element-e2a8ddb .elementor-labe
 
 .elementor-352 .elementor-element.elementor-element-b376312 .elementor-form-fields-wrapper {
     margin-left: calc( -8px/2);
-    margin-right: calc( -8px/2);
+    marginRight: calc( -8px/2);
     margin-bottom: -8px;
 }
 

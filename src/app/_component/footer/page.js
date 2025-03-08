@@ -214,7 +214,7 @@ const Footer = () => {
                         >
                             <div
                                 className="elementor-element elementor-element-0779970 elementor-widget elementor-widget-heading"
-                               
+
                                 data-element_type="widget"
                                 data-widget_type="heading.default"
                             >
@@ -233,56 +233,56 @@ const Footer = () => {
                                 <div className="elementor-widget-container">
                                     <ul className="elementor-icon-list-items">
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/">
+                                            <a href="/">
                                                 <span className="elementor-icon-list-text">Home</span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/infozone/">
+                                            <a href="/home/infozone/">
                                                 <span className="elementor-icon-list-text">InfoZone</span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/about-us/">
+                                            <a href="/home/aboutus/">
                                                 <span className="elementor-icon-list-text">About Us</span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/careers/">
+                                            <a href="/home/careers/">
                                                 <span className="elementor-icon-list-text">Careers</span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/contact/">
+                                            <a href="/home/contactus/">
                                                 <span className="elementor-icon-list-text">Contact Us</span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/faqs/">
+                                            <a href="/home/faqs/">
                                                 <span className="elementor-icon-list-text">FAQs</span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/pricing/">
+                                            <a href="/home/prices/">
                                                 <span className="elementor-icon-list-text">Pricing</span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/privacy-policy/">
+                                            <a href="/home/privacy-policy/">
                                                 <span className="elementor-icon-list-text">
                                                     Privacy Policy
                                                 </span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/refund-policy/">
+                                            <a href="/home/refund-policy/">
                                                 <span className="elementor-icon-list-text">
                                                     Refund Policy
                                                 </span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/terms-of-use/">
+                                            <a href="/home/terms-of-use/">
                                                 <span className="elementor-icon-list-text">
                                                     Terms of Use
                                                 </span>

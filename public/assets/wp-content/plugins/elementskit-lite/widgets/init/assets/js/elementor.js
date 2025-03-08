@@ -45,7 +45,7 @@
                     border: "none"
                 }) : n.css({
                     "padding-right": 0,
-                    "margin-right": "5px"
+                    "marginRight": "5px"
                 })
             },
             success: function(s) {

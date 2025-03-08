@@ -72,7 +72,7 @@
 
 .elementor-widget-n-carousel .e-n-carousel>.swiper-wrapper>.swiper-slide>.e-con {
     height: var(--e-n-carousel-slide-container-height, initial);
-    max-width: calc(100% - var(--margin-inline-start, var(--margin-left)) - var(--margin-inline-end, var(--margin-right)))
+    max-width: calc(100% - var(--margin-inline-start, var(--margin-left)) - var(--margin-inline-end, var(--marginRight)))
 }
 
 .elementor-widget-n-carousel .elementor-swiper-button.elementor-swiper-button-next,

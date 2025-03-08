@@ -21,7 +21,7 @@
     flex-wrap: wrap;
     justify-content: var(--justify-content, space-between);
     margin-left: calc(-.5 * var(--grid-column-gap));
-    margin-right: calc(-.5 * var(--grid-column-gap));
+    marginRight: calc(-.5 * var(--grid-column-gap));
     width: auto
 }
 
@@ -31,7 +31,7 @@
 .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-center .elementor-grid-item,
 .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-right .elementor-grid-item {
     margin-left: calc(.5 * var(--grid-column-gap));
-    margin-right: calc(.5 * var(--grid-column-gap))
+    marginRight: calc(.5 * var(--grid-column-gap))
 }
 
 .e--ua-appleWebkit .elementor-grid-0.elementor-share-buttons--align-left .elementor-grid,
@@ -44,7 +44,7 @@
 .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-left .elementor-grid,
 .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-left .elementor-grid-item {
     margin-left: 0;
-    margin-right: 0
+    marginRight: 0
 }
 
 @media (max-width:1024px) {
@@ -65,7 +65,7 @@
         flex-wrap: wrap;
         justify-content: var(--justify-content, space-between);
         margin-left: calc(-.5 * var(--grid-column-gap));
-        margin-right: calc(-.5 * var(--grid-column-gap));
+        marginRight: calc(-.5 * var(--grid-column-gap));
         width: auto
     }
     .e--ua-appleWebkit .elementor-grid-0.elementor-share-buttons--align-tablet-center .elementor-grid-item,
@@ -74,7 +74,7 @@
     .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-tablet-center .elementor-grid-item,
     .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-tablet-right .elementor-grid-item {
         margin-left: calc(.5 * var(--grid-column-gap));
-        margin-right: calc(.5 * var(--grid-column-gap))
+        marginRight: calc(.5 * var(--grid-column-gap))
     }
     .e--ua-appleWebkit .elementor-grid-0.elementor-share-buttons-tablet--align-left .elementor-grid,
     .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-tablet-left .elementor-grid {
@@ -85,7 +85,7 @@
     .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-tablet-left .elementor-grid,
     .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-tablet-left .elementor-grid-item {
         margin-left: 0;
-        margin-right: 0
+        marginRight: 0
     }
 }
 
@@ -107,7 +107,7 @@
         flex-wrap: wrap;
         justify-content: var(--justify-content, space-between);
         margin-left: calc(-.5 * var(--grid-column-gap));
-        margin-right: calc(-.5 * var(--grid-column-gap));
+        marginRight: calc(-.5 * var(--grid-column-gap));
         width: auto
     }
     .e--ua-appleWebkit .elementor-grid-0.elementor-share-buttons--align-mobile-center .elementor-grid-item,
@@ -116,7 +116,7 @@
     .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-mobile-center .elementor-grid-item,
     .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-mobile-right .elementor-grid-item {
         margin-left: calc(.5 * var(--grid-column-gap));
-        margin-right: calc(.5 * var(--grid-column-gap))
+        marginRight: calc(.5 * var(--grid-column-gap))
     }
     .e--ua-appleWebkit .elementor-grid-0.elementor-share-buttons-mobile--align-left .elementor-grid,
     .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-mobile-left .elementor-grid {
@@ -127,6 +127,6 @@
     .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-mobile-left .elementor-grid,
     .e--ua-appleWebkit .elementor-grid-0.elementor-widget-social-icons.e-grid-align-mobile-left .elementor-grid-item {
         margin-left: 0;
-        margin-right: 0
+        marginRight: 0
     }
 }

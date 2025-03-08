@@ -120,13 +120,13 @@
 
 .ql-editor li:not(.ql-direction-rtl)::before {
     margin-left: -1.5em;
-    margin-right: .3em;
+    marginRight: .3em;
     text-align: right
 }
 
 .ql-editor li.ql-direction-rtl::before {
     margin-left: .3em;
-    margin-right: -1.5em
+    marginRight: -1.5em
 }
 
 .ql-editor ol li:not(.ql-direction-rtl),
@@ -1064,7 +1064,7 @@
 }
 
 .ql-toolbar.ql-snow .ql-formats {
-    margin-right: 15px
+    marginRight: 15px
 }
 
 .ql-toolbar.ql-snow .ql-picker-label {
@@ -1107,7 +1107,7 @@
 .ql-snow .ql-tooltip::before {
     content: "Visit URL:";
     line-height: 26px;
-    margin-right: 8px
+    marginRight: 8px
 }
 
 .ql-snow .ql-tooltip input[type=text] {

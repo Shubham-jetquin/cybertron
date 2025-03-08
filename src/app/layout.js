@@ -3,6 +3,7 @@ import "./globals.css";
 import Script from "next/script";
 import Header from "./_component/header/page";
 import Footer from "./_component/footer/page";
+import CookieConsent from "./_component/cookies-constent/page";
 
 
 export default function RootLayout({ children }) {
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <link rel='stylesheet' id='elementor-post-591-css' href='/assets/wp-content/uploads/elementor/css/post-591.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='elementor-post-352-css' href='/assets/wp-content/uploads/elementor/css/post-352.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='elementor-post-10-css' href='/assets/wp-content/uploads/elementor/css/post-10.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-10-css' href='/assets/wp-content/uploads/elementor/css/post-267.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='elementor-post-131-css' href='/assets/wp-content/uploads/elementor/css/post-1331.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='widget-spacer-css' href='/assets/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.27.6' media='all' />
         <link rel='stylesheet' id='widget-heading-css' href='/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.27.6' media='all' />
@@ -73,6 +75,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
+        <CookieConsent/>
         <Footer />
       </body>
     </html>

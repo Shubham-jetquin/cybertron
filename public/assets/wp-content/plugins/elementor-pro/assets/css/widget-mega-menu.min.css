@@ -144,7 +144,7 @@
 
 .elementor-widget-n-menu .e-n-menu-content>.e-con {
     animation-duration: var(--n-menu-open-animation-duration);
-    max-width: calc(100% - var(--margin-inline-start, var(--margin-left)) - var(--margin-inline-end, var(--margin-right)))
+    max-width: calc(100% - var(--margin-inline-start, var(--margin-left)) - var(--margin-inline-end, var(--marginRight)))
 }
 
 :where(.elementor-widget-n-menu .e-n-menu-content>.e-con) {
