@@ -97,6 +97,44 @@ const Home = () => {
     return <>
 
         <div data-elementor-type="wp-page" data-elementor-id={8} className="elementor elementor-8" data-elementor-post-type="page">
+            <div className="elementor-element elementor-element-6476a41 e-con-full e-flex e-con e-parent" data-id="6476a41" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style={{
+                backgroundImage: "url('/assets/bannebg.webp')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                width: "100%",
+                height: "auto",
+            }}>
+
+                <div className="elementor-element elementor-element-2a2c767 e-con-full e-flex e-con e-child" data-id="2a2c767" data-element_type="container">
+                    <div className="elementor-element elementor-element-1241e02 elementor-widget elementor-widget-heading" data-id="1241e02" data-element_type="widget" data-widget_type="heading.default">
+                        <div className="elementor-widget-container">
+                            <h2 className="elementor-heading-title elementor-size-default">Welcome To Cybertron</h2>				</div>
+                    </div>
+                    <div className="elementor-element elementor-element-6830591 elementor-widget elementor-widget-heading" data-id={6830591} data-element_type="widget" data-widget_type="heading.default">
+                        <div className="elementor-widget-container">
+                            <h2 className="elementor-heading-title elementor-size-default" style={{color:'white'}}>The Ultimate Solution <br />for All Your Digital Needs</h2>				</div>
+                    </div>
+                    <div className="elementor-element elementor-element-ffb2597 elementor-widget elementor-widget-text-editor" data-id="ffb2597" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div className="elementor-widget-container">
+                            <p><span style={{ "font-weight": "400", color:'white' }}>Cybertron offers a complete range of cybersecurity, digital marketing, SEO, and software solutions to help you stay secure and succeed in the digital world.</span></p>								</div>
+                    </div>
+
+                    <div className="elementor-element elementor-element-1cd0e62 e-con-full e-flex e-con e-child" data-id="1cd0e62" data-element_type="container">
+                        <div className="elementor-element elementor-element-f5b9f7e elementor-widget elementor-widget-button" data-id="f5b9f7e" data-element_type="widget" data-widget_type="button.default">
+                            <div className="elementor-widget-container">
+                                <div className="elementor-button-wrapper">
+                                    <a className="elementor-button elementor-button-link elementor-size-sm" href="/home/contactus/">
+                                        <span className="elementor-button-content-wrapper">
+                                            <span className="elementor-button-text">GET FREE TRIAL</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="elementor-element elementor-element-e8d9aa1 e-con-full e-flex e-con e-parent e-lazyloaded" data-id="e8d9aa1" data-element_type="container">
                 <div className="elementor-element elementor-element-b0e27e1 e-con-full e-flex e-con e-child" data-id="b0e27e1" data-element_type="container">
                     <div className="elementor-element elementor-element-6a9458e elementor-widget elementor-widget-heading" data-id="6a9458e" data-element_type="widget" data-widget_type="heading.default">
@@ -1647,7 +1685,7 @@ const Home = () => {
                         <div className="elementor-widget-container">
                             <h2 className="elementor-heading-title elementor-size-default">Latest News</h2>				</div>
                     </div>
-                    
+
                     <div className="elementor-element elementor-element-ef83494 elementor-arrows-position-outside elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-loop-carousel e-widget-swiper" data-id="ef83494" data-element_type="widget" data-settings="{&quot;template_id&quot;:&quot;1058&quot;,&quot;_skin&quot;:&quot;post&quot;,&quot;slides_to_show&quot;:&quot;3&quot;,&quot;slides_to_show_tablet&quot;:&quot;2&quot;,&quot;slides_to_show_mobile&quot;:&quot;1&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;edit_handle_selector&quot;:&quot;.elementor-widget-container&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;offset_sides&quot;:&quot;none&quot;,&quot;arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="loop-carousel.post">
                         <div className="elementor-widget-container">
                             <div className="swiper elementor-loop-container elementor-grid swiper-initialized swiper-horizontal" dir="ltr">

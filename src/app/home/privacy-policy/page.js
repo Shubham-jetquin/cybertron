@@ -89,6 +89,7 @@ const privacyPolicy = () => {
                 className="elementor-element elementor-element-06e7ce7 e-con-full e-flex e-con e-parent e-lazyloaded"
                 data-id="06e7ce7"
                 data-element_type="container"
+                style={{backgroundColor:'#00142c'}}
             >
                 <div
                     className="elementor-element elementor-element-148b90a elementor-widget elementor-widget-theme-post-content"

@@ -5,6 +5,7 @@ const contact = () => {
             data-elementor-id={10}
             className="elementor elementor-10"
             data-elementor-post-type="page"
+            style={{backgroundColor:"#00142c"}}
         >
             <div
                 className="elementor-element elementor-element-1ec03c9 e-con-full e-flex e-con e-parent e-lazyloaded"

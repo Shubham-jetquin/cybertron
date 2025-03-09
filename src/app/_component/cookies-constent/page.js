@@ -28,49 +28,20 @@ const CookieConsent = () => {
   if (!showPopup) return null; // Don't render if cookies are accepted
 
   return (
-    <div
-      style={{
-        position: "fixed",
-        bottom: "20px",
-        left: "20px",
-        right: "20px",
-        backgroundColor: "#fff",
-        padding: "15px",
-        boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.1)",
-        borderRadius: "8px",
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        zIndex: "1000",
-      }}
-    >
-      <p style={{ fontSize: "14px", color: "#333", margin: "0" }}>
+    <div className="fixed bottom-5 left-5 right-5 md:left-10 md:right-10 bg-white p-4 shadow-lg rounded-lg flex flex-col md:flex-row justify-between items-center z-50 border border-gray-200">
+      <p className="text-sm md:text-base text-gray-700 text-center md:text-left">
         We use cookies to improve your experience. Accept cookies for better performance.
       </p>
-      <div style={{ display: "flex", gap: "10px" }}>
+      <div className="flex gap-3 mt-3 md:mt-0">
         <button
           onClick={handleAccept}
-          style={{
-            backgroundColor: "#4CAF50",
-            color: "#fff",
-            border: "none",
-            padding: "8px 12px",
-            borderRadius: "5px",
-            cursor: "pointer",
-          }}
+          className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition duration-300"
         >
           Accept
         </button>
         <button
           onClick={handleReject}
-          style={{
-            backgroundColor: "#FF5733",
-            color: "#fff",
-            border: "none",
-            padding: "8px 12px",
-            borderRadius: "5px",
-            cursor: "pointer",
-          }}
+          className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition duration-300"
         >
           Reject
         </button>

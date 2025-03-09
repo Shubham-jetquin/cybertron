@@ -1556,6 +1556,7 @@ const callback = () => {
                 className="elementor-element elementor-element-f2d3939 e-con-full e-flex e-con e-parent e-lazyloaded"
                 data-id="f2d3939"
                 data-element_type="container"
+                style={{backgroundColor:'#00142c'}}
             >
                 <div
                     className="elementor-element elementor-element-e5b2704 e-flex e-con-boxed e-con e-child"
@@ -1658,6 +1659,7 @@ const callback = () => {
                 className="elementor-element elementor-element-0172f59 e-flex e-con-boxed e-con e-parent"
                 data-id="0172f59"
                 data-element_type="container"
+                style={{backgroundColor:'#00142c'}}
             >
                 <div className="e-con-inner"></div>
             </div>

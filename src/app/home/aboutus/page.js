@@ -84,7 +84,7 @@ const aboutus = () => {
             <div
                 className="elementor-element elementor-element-06e7ce7 e-con-full e-flex e-con e-parent e-lazyloaded"
                 data-element_type="container"
-                data-id="06e7ce7">
+                data-id="06e7ce7" style={{backgroundColor:'#00142c'}}>
                 <div
                     className="elementor-element elementor-element-148b90a elementor-widget elementor-widget-theme-post-content"
                     data-element_type="widget"

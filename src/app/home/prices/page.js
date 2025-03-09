@@ -9,7 +9,7 @@ const prices = () => {
             className="elementor elementor-352"
             data-elementor-id="352"
             data-elementor-post-type="page"
-            data-elementor-type="wp-page">
+            data-elementor-type="wp-page" style={{backgroundColor:'#00142c'}}>
             <div
                 className="elementor-element elementor-element-4462b03 e-flex e-con-boxed e-con e-parent e-lazyloaded"
                 data-element_type="container"

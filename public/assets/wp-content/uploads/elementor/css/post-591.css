@@ -35,7 +35,7 @@
     font-family: var( --e-global-typography-accent-font-family), Sans-serif;
     font-size: var( --e-global-typography-accent-font-size);
     font-weight: var( --e-global-typography-accent-font-weight);
-    color: var( --e-global-color-31e911c);
+    color: '#00142c';
     border-radius: 13px 13px 13px 13px;
 }
 
