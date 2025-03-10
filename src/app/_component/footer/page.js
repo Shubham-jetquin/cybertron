@@ -142,19 +142,19 @@ const Footer = () => {
                                 <div className="elementor-widget-container">
                                     <ul className="elementor-icon-list-items">
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/wordpress/">
+                                            <a href="/home/webdev/wordpress/">
                                                 <span className="elementor-icon-list-text">WordPress</span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/react-angular-vue-js/">
+                                            <a href="/home/webdev/react/">
                                                 <span className="elementor-icon-list-text">
                                                     React | Angular | Vue.js{" "}
                                                 </span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/django-laravel-node-js/">
+                                            <a href="/home/webdev/django">
                                                 <span className="elementor-icon-list-text">
                                                     Django | Laravel | Node.js
                                                 </span>
@@ -171,19 +171,19 @@ const Footer = () => {
                                             </span>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/palo-alto-networks/">
+                                            <a href="/home/cybersecurity/paloalto/">
                                                 <span className="elementor-icon-list-text">
                                                     Palo Alto Networks
                                                 </span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/cloudflare/">
+                                            <a href="/home/cybersecurity/cloudfare/">
                                                 <span className="elementor-icon-list-text">Cloudflare</span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/fortinet-check-point/">
+                                            <a href="/home/cybersecurity/fortinet/">
                                                 <span className="elementor-icon-list-text">
                                                     Fortinet | Check Point
                                                 </span>

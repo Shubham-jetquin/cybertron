@@ -26,6 +26,17 @@ export default function RootLayout({ children }) {
         <link rel='stylesheet' id='elementor-frontend-css' href='/assets/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.27.6' media='all' />
         <link rel='stylesheet' id='elementor-post-591-css' href='/assets/wp-content/uploads/elementor/css/post-1198.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='elementor-post-352-css' href='/assets/wp-content/uploads/elementor/css/post-265.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1761.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1942.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1984.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1987.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1990.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1997.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-2000.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1978.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1768.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1773.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1679.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='elementor-post-591-css' href='/assets/wp-content/uploads/elementor/css/post-591.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='elementor-post-352-css' href='/assets/wp-content/uploads/elementor/css/post-352.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='elementor-post-10-css' href='/assets/wp-content/uploads/elementor/css/post-10.css?ver=1741320363' media='all' />
@@ -39,6 +50,7 @@ export default function RootLayout({ children }) {
         <link rel='stylesheet' id='widget-icon-list-css' href='/assets/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.27.6' media='all' />
         <link rel='stylesheet' id='e-animation-fadeIn-css' href='/assets/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=3.27.6' media='all' />
         <link rel='stylesheet' id='widget-mega-menu-css' href='/assets/wp-content/plugins/elementor-pro/assets/css/widget-mega-menu.min.css?ver=3.26.3' media='all' />
+        <link rel='stylesheet' id='widget-mega-menu-css' href='/assets/wp-content/plugins/elementor-pro/assets/css/widget-table-of-contents.min.css?ver=3.26.3' media='all' />
         <link rel='stylesheet' id='widget-image-css' href='/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.27.6' media='all' />
         <link rel='stylesheet' id='widget-social-icons-css' href='/assets/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.27.6' media='all' />
         <link rel='stylesheet' id='e-apple-webkit-css' href='/assets/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.27.6' media='all' />

@@ -3,6 +3,13 @@
 import { useState } from "react";
 
 const Header = ({ setActiveTab }) => {
+
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(prevState => !prevState);
+    };
+
     const [openMenu, setOpenMenu] = useState(null);
 
     const handleMouseEnter = (menu) => {
@@ -30,11 +37,17 @@ const Header = ({ setActiveTab }) => {
                             <div className="elementor-element elementor-element-c7dde8b e-full_width e-n-menu-layout-horizontal e-n-menu-tablet elementor-widget elementor-widget-n-menu" data-id="c7dde8b" data-element_type="widget" data-settings="{&quot;menu_items&quot;:[{&quot;item_title&quot;:&quot;Company&quot;,&quot;_id&quot;:&quot;ab17a65&quot;,&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Platform&quot;,&quot;_id&quot;:&quot;b5c832d&quot;,&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Services&quot;,&quot;_id&quot;:&quot;35da67f&quot;,&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Products&quot;,&quot;_id&quot;:&quot;3f64fd7&quot;,&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Brands    &quot;,&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;_id&quot;:&quot;a43d349&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/cybertron-tech.com\/brands\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;_id&quot;:&quot;345e6ca&quot;,&quot;item_title&quot;:&quot;Pricing&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/cybertron-tech.com\/pricing\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;__dynamic__&quot;:[],&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;}],&quot;open_animation&quot;:&quot;fadeIn&quot;,&quot;horizontal_scroll_tablet&quot;:&quot;disable&quot;,&quot;content_width&quot;:&quot;full_width&quot;,&quot;item_layout&quot;:&quot;horizontal&quot;,&quot;open_on&quot;:&quot;hover&quot;,&quot;horizontal_scroll&quot;:&quot;disable&quot;,&quot;breakpoint_selector&quot;:&quot;tablet&quot;,&quot;menu_item_title_distance_from_content&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;menu_item_title_distance_from_content_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_item_title_distance_from_content_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="mega-menu.default">
                                 <div className="elementor-widget-container">
                                     <nav className="e-n-menu" data-widget-number={209} aria-label="Menu 1" data-touch-mode="true" data-layout="horizontal">
-                                        <button className="e-n-menu-toggle" id="menu-toggle-209" aria-haspopup="true" aria-expanded="false" aria-controls="menubar-209" aria-label="Menu Toggle">
-                                            <span className="e-n-menu-toggle-icon e-open">
-                                                <svg className="e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z" /></svg>			</span>
-                                            <span className="e-n-menu-toggle-icon e-close">
-                                                <svg className="e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z" /></svg>
+                                        <button className="e-n-menu-toggle" id="menu-toggle-209" aria-haspopup="true" aria-expanded="false" aria-controls="menubar-209" aria-label="Menu Toggle" onClick={toggleMenu}>
+                                            <span className={`e-n-menu-toggle-icon ${isMenuOpen ? "e-close" : "e-open"}`}>
+                                                {isMenuOpen ? (
+                                                    <svg className="e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z" />
+                                                    </svg>
+                                                ) : (
+                                                    <svg className="e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z" />
+                                                    </svg>
+                                                )}
                                             </span>
                                         </button>
                                         <div className="e-n-menu-wrapper" id="menubar-209" aria-labelledby="menu-toggle-209" style={{ "--stretch-width": "1561px", "--stretch-left": "-431.484375px" }}>
@@ -147,7 +160,7 @@ const Header = ({ setActiveTab }) => {
                                                                                 <div className="elementor-widget-container">
                                                                                     <h2 className="elementor-heading-title elementor-size-default">Web &amp; Software Development </h2>				</div>
                                                                             </div>
-                                                                            <a className="elementor-element elementor-element-fabda41 e-con-full e-flex e-con e-child" data-id="fabda41" data-element_type="container" href="https://cybertron-tech.com/wordpress/">
+                                                                            <a className="elementor-element elementor-element-fabda41 e-con-full e-flex e-con e-child" data-id="fabda41" data-element_type="container" href="/home/webdev/wordpress/">
                                                                                 <div className="elementor-element elementor-element-18c9a3c elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-view-default elementor-widget elementor-widget-icon-box" data-id="18c9a3c" data-element_type="widget" data-widget_type="icon-box.default">
                                                                                     <div className="elementor-widget-container">
                                                                                         <div className="elementor-icon-box-wrapper">
@@ -167,7 +180,7 @@ const Header = ({ setActiveTab }) => {
                                                                                     </div>
                                                                                 </div>
                                                                             </a>
-                                                                            <a className="elementor-element elementor-element-b976b6a e-con-full e-flex e-con e-child" data-id="b976b6a" data-element_type="container" href="https://cybertron-tech.com/wordpress/">
+                                                                            <a className="elementor-element elementor-element-b976b6a e-con-full e-flex e-con e-child" data-id="b976b6a" data-element_type="container" href="/home/webdev/react">
                                                                                 <div className="elementor-element elementor-element-4629631 elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-vertical-align-middle elementor-view-default elementor-widget elementor-widget-icon-box" data-id={4629631} data-element_type="widget" data-widget_type="icon-box.default">
                                                                                     <div className="elementor-widget-container">
                                                                                         <div className="elementor-icon-box-wrapper">
@@ -191,12 +204,12 @@ const Header = ({ setActiveTab }) => {
                                                                                 <div className="elementor-widget-container">
                                                                                     <div className="elementor-icon-box-wrapper">
                                                                                         <div className="elementor-icon-box-icon">
-                                                                                            <a href="https://cybertron-tech.com/django-laravel-node-js/" className="elementor-icon" tabIndex={-1} aria-label="Django | Laravel | Node.js">
+                                                                                            <a href="/home/webdev/django/" className="elementor-icon" tabIndex={-1} aria-label="Django | Laravel | Node.js">
                                                                                                 <svg aria-hidden="true" className="e-font-icon-svg e-fas-database" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 73.143v45.714C448 159.143 347.667 192 224 192S0 159.143 0 118.857V73.143C0 32.857 100.333 0 224 0s224 32.857 224 73.143zM448 176v102.857C448 319.143 347.667 352 224 352S0 319.143 0 278.857V176c48.125 33.143 136.208 48.572 224 48.572S399.874 209.143 448 176zm0 160v102.857C448 479.143 347.667 512 224 512S0 479.143 0 438.857V336c48.125 33.143 136.208 48.572 224 48.572S399.874 369.143 448 336z" /></svg>				</a>
                                                                                         </div>
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/django-laravel-node-js/">
+                                                                                                <a href="/home/webdev/django/">
                                                                                                     Django | Laravel | Node.js						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">
@@ -209,12 +222,12 @@ const Header = ({ setActiveTab }) => {
                                                                                 <div className="elementor-widget-container">
                                                                                     <div className="elementor-icon-box-wrapper">
                                                                                         <div className="elementor-icon-box-icon">
-                                                                                            <a href="https://cybertron-tech.com/github-gitlab-bitbucket/" className="elementor-icon" tabIndex={-1} aria-label="GitHub | GitLab | Bitbucket ">
+                                                                                            <a href="/home/webdev/github/" className="elementor-icon" tabIndex={-1} aria-label="GitHub | GitLab | Bitbucket ">
                                                                                                 <svg aria-hidden="true" className="e-font-icon-svg e-fab-github-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z" /></svg>				</a>
                                                                                         </div>
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/github-gitlab-bitbucket/">
+                                                                                                <a href="/home/webdev/github/">
                                                                                                     GitHub | GitLab | Bitbucket 						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">
@@ -233,12 +246,12 @@ const Header = ({ setActiveTab }) => {
                                                                                 <div className="elementor-widget-container">
                                                                                     <div className="elementor-icon-box-wrapper">
                                                                                         <div className="elementor-icon-box-icon">
-                                                                                            <a href="https://cybertron-tech.com/cloudflare/" className="elementor-icon" tabIndex={-1} aria-label="Cloudflare ">
+                                                                                            <a href="/home/cybersecurity/cloudfare/" className="elementor-icon" tabIndex={-1} aria-label="Cloudflare ">
                                                                                                 <svg xmlns="http://www.w3.org/2000/svg" aria-label="Cloudflare" viewBox="0 0 512 512" width="800px" height="800px" fill="#14b69e" stroke="#14b69e"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"><rect width={512} height={512} rx="15%" fill="#ffffff" /><path fill="#14b69e" d="M331 326c11-26-4-38-19-38l-148-2c-4 0-4-6 1-7l150-2c17-1 37-15 43-33 0 0 10-21 9-24a97 97 0 0 0-187-11c-38-25-78 9-69 46-48 3-65 46-60 72 0 1 1 2 3 2h274c1 0 3-1 3-3z" /><path fill="#14b69e" d="M381 224c-4 0-6-1-7 1l-5 21c-5 16 3 30 20 31l32 2c4 0 4 6-1 7l-33 1c-36 4-46 39-46 39 0 2 0 3 2 3h113l3-2a81 81 0 0 0-78-103" /></g></svg>				</a>
                                                                                         </div>
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/cloudflare/">
+                                                                                                <a href="/home/cybersecurity/cloudfare/">
                                                                                                     Cloudflare 						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">
@@ -252,12 +265,12 @@ const Header = ({ setActiveTab }) => {
                                                                                 <div className="elementor-widget-container">
                                                                                     <div className="elementor-icon-box-wrapper">
                                                                                         <div className="elementor-icon-box-icon">
-                                                                                            <a href="https://cybertron-tech.com/palo-alto-networks/" className="elementor-icon" tabIndex={-1} aria-label="Palo Alto Networks ">
+                                                                                            <a href="/home/cybersecurity/paloalto/" className="elementor-icon" tabIndex={-1} aria-label="Palo Alto Networks ">
                                                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 1024 1024" fill="#14b69e" stroke="#14b69e"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"><circle cx={512} cy={512} r={512} style={{ "fill": "#14b69e" }} /><path d="M592.93 310.51 512.42 391l40 40.06L350.58 633l80.51 80.51L511.6 633l-40-40 201.84-202zM230 512.4l201.89-201.89L512.41 391l-201.9 201.91zM511.59 633l201.9-201.91L794 511.6 592.11 713.49z" style={{ "fill": "#fff" }} /></g></svg>				</a>
                                                                                         </div>
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/palo-alto-networks/">
+                                                                                                <a href="/home/cybersecurity/paloalto/">
                                                                                                     Palo Alto Networks 						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">
@@ -270,12 +283,12 @@ const Header = ({ setActiveTab }) => {
                                                                                 <div className="elementor-widget-container">
                                                                                     <div className="elementor-icon-box-wrapper">
                                                                                         <div className="elementor-icon-box-icon">
-                                                                                            <a href="https://cybertron-tech.com/cisco-security/" className="elementor-icon" tabIndex={-1} aria-label="Cisco Security ">
+                                                                                            <a href="/home/cybersecurity/cisco/" className="elementor-icon" tabIndex={-1} aria-label="Cisco Security ">
                                                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 1024 1024" fill="#14b69e" stroke="#14b69e"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"><circle cx={512} cy={512} r={512} style={{ "fill": "#14b69e" }} /><path d="M592.93 310.51 512.42 391l40 40.06L350.58 633l80.51 80.51L511.6 633l-40-40 201.84-202zM230 512.4l201.89-201.89L512.41 391l-201.9 201.91zM511.59 633l201.9-201.91L794 511.6 592.11 713.49z" style={{ "fill": "#fff" }} /></g></svg>				</a>
                                                                                         </div>
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/cisco-security/">
+                                                                                                <a href="/home/cybersecurity/cisco/">
                                                                                                     Cisco Security 						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">
@@ -290,7 +303,7 @@ const Header = ({ setActiveTab }) => {
 
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/splunk-ibm-qradar/">
+                                                                                                <a href="/home/cybersecurity/splunk/">
                                                                                                     Splunk | IBM QRadar						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">
@@ -303,12 +316,12 @@ const Header = ({ setActiveTab }) => {
                                                                                 <div className="elementor-widget-container">
                                                                                     <div className="elementor-icon-box-wrapper">
                                                                                         <div className="elementor-icon-box-icon">
-                                                                                            <a href="https://cybertron-tech.com/fortinet-check-point/" className="elementor-icon" tabIndex={-1} aria-label="Fortinet | Check Point">
+                                                                                            <a href="/home/cybersecurity/fortinet/" className="elementor-icon" tabIndex={-1} aria-label="Fortinet | Check Point">
                                                                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="#14b69e" width="800px" height="800px" viewBox="0 0 24 24"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"><title>Fortinet icon</title><path d="M0 9.785h6.788v4.454H0zm8.666-6.33h6.668v4.453H8.666zm0 12.637h6.668v4.454H8.666zm8.522-6.307H24v4.454h-6.812zM2.792 3.455C1.372 3.814.265 5.404 0 7.425v.506h6.788V3.454zM0 16.091v.554c.24 1.926 1.276 3.466 2.624 3.9h4.188v-4.454zm24-8.184v-.506c-.265-1.998-1.372-3.587-2.792-3.972h-4.02v4.454H24zM21.376 20.57c1.324-.458 2.36-1.974 2.624-3.9v-.554h-6.812v4.454Z" /></g></svg>				</a>
                                                                                         </div>
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/fortinet-check-point/">
+                                                                                                <a href="/home/cybersecurity/fortinet/">
                                                                                                     Fortinet | Check Point						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">
@@ -321,12 +334,12 @@ const Header = ({ setActiveTab }) => {
                                                                                 <div className="elementor-widget-container">
                                                                                     <div className="elementor-icon-box-wrapper">
                                                                                         <div className="elementor-icon-box-icon">
-                                                                                            <a href="https://cybertron-tech.com/trend-micro-symantec/" className="elementor-icon" tabIndex={-1} aria-label="Trend Micro | Symantec ">
+                                                                                            <a href="/home/cybersecurity/trend-micro/" className="elementor-icon" tabIndex={-1} aria-label="Trend Micro | Symantec ">
                                                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"><path fillRule="evenodd" clipRule="evenodd" d="M5 5C5 4.44772 4.55228 4 4 4C3.44772 4 3 4.44772 3 5L3 13.9998C3 13.9999 3 14.0001 3 14.0002V19C3 19.5523 3.44772 20 4 20H20C20.5523 20 21 19.5523 21 19C21 18.4477 20.5523 18 20 18H5V14.4142L9 10.4142L12.2929 13.7071C12.6834 14.0976 13.3166 14.0976 13.7071 13.7071L19 8.41421V11C19 11.5523 19.4477 12 20 12C20.5523 12 21 11.5523 21 11V6C21 5.44772 20.5523 5 20 5H15C14.4477 5 14 5.44772 14 6C14 6.55228 14.4477 7 15 7H17.5858L13 11.5858L9.70711 8.29289C9.31658 7.90237 8.68342 7.90237 8.29289 8.29289L5 11.5858V5Z" fill="#14b69e" /></g></svg>				</a>
                                                                                         </div>
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/trend-micro-symantec/">
+                                                                                                <a href="/home/cybersecurity/trend-micro/">
                                                                                                     Trend Micro | Symantec 						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">
@@ -339,12 +352,12 @@ const Header = ({ setActiveTab }) => {
                                                                                 <div className="elementor-widget-container">
                                                                                     <div className="elementor-icon-box-wrapper">
                                                                                         <div className="elementor-icon-box-icon">
-                                                                                            <a href="https://cybertron-tech.com/lastpass-1password/" className="elementor-icon" tabIndex={-1} aria-label="LastPass | 1Password ">
+                                                                                            <a href="/home/cybersecurity/lastpass/" className="elementor-icon" tabIndex={-1} aria-label="LastPass | 1Password ">
                                                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"><path fillRule="evenodd" clipRule="evenodd" d="M5.25 10.0546V8C5.25 4.27208 8.27208 1.25 12 1.25C15.7279 1.25 18.75 4.27208 18.75 8V10.0546C19.8648 10.1379 20.5907 10.348 21.1213 10.8787C22 11.7574 22 13.1716 22 16C22 18.8284 22 20.2426 21.1213 21.1213C20.2426 22 18.8284 22 16 22H8C5.17157 22 3.75736 22 2.87868 21.1213C2 20.2426 2 18.8284 2 16C2 13.1716 2 11.7574 2.87868 10.8787C3.40931 10.348 4.13525 10.1379 5.25 10.0546ZM6.75 8C6.75 5.10051 9.10051 2.75 12 2.75C14.8995 2.75 17.25 5.10051 17.25 8V10.0036C16.867 10 16.4515 10 16 10H8C7.54849 10 7.13301 10 6.75 10.0036V8Z" fill="#0EC9AC" /></g></svg>				</a>
                                                                                         </div>
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/lastpass-1password/">
+                                                                                                <a href="/home/cybersecurity/lastpass/">
                                                                                                     LastPass | 1Password 						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">
