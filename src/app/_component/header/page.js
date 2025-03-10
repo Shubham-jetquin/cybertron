@@ -376,12 +376,12 @@ const Header = ({ setActiveTab }) => {
                                                                                 <div className="elementor-widget-container">
                                                                                     <div className="elementor-icon-box-wrapper">
                                                                                         <div className="elementor-icon-box-icon">
-                                                                                            <a href="https://cybertron-tech.com/hubspot/" className="elementor-icon" tabIndex={-1} aria-label="HubSpot ">
+                                                                                            <a href="/home/online-reputation/hubstop/" className="elementor-icon" tabIndex={-1} aria-label="HubSpot ">
                                                                                                 <svg aria-hidden="true" className="e-font-icon-svg e-fab-hubspot" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M267.4 211.6c-25.1 23.7-40.8 57.3-40.8 94.6 0 29.3 9.7 56.3 26 78L203.1 434c-4.4-1.6-9.1-2.5-14-2.5-10.8 0-20.9 4.2-28.5 11.8-7.6 7.6-11.8 17.8-11.8 28.6s4.2 20.9 11.8 28.5c7.6 7.6 17.8 11.6 28.5 11.6 10.8 0 20.9-3.9 28.6-11.6 7.6-7.6 11.8-17.8 11.8-28.5 0-4.2-.6-8.2-1.9-12.1l50-50.2c22 16.9 49.4 26.9 79.3 26.9 71.9 0 130-58.3 130-130.2 0-65.2-47.7-119.2-110.2-128.7V116c17.5-7.4 28.2-23.8 28.2-42.9 0-26.1-20.9-47.9-47-47.9S311.2 47 311.2 73.1c0 19.1 10.7 35.5 28.2 42.9v61.2c-15.2 2.1-29.6 6.7-42.7 13.6-27.6-20.9-117.5-85.7-168.9-124.8 1.2-4.4 2-9 2-13.8C129.8 23.4 106.3 0 77.4 0 48.6 0 25.2 23.4 25.2 52.2c0 28.9 23.4 52.3 52.2 52.3 9.8 0 18.9-2.9 26.8-7.6l163.2 114.7zm89.5 163.6c-38.1 0-69-30.9-69-69s30.9-69 69-69 69 30.9 69 69-30.9 69-69 69z" /></svg>				</a>
                                                                                         </div>
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/hubspot/">
+                                                                                                <a href="/home/online-reputation/hubstop/">
                                                                                                     HubSpot 						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">
@@ -396,7 +396,7 @@ const Header = ({ setActiveTab }) => {
 
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/semrush-ahrefs/">
+                                                                                                <a href="/home/online-reputation/semrush/">
                                                                                                     SEMrush | Ahrefs 						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">
@@ -409,12 +409,12 @@ const Header = ({ setActiveTab }) => {
                                                                                 <div className="elementor-widget-container">
                                                                                     <div className="elementor-icon-box-wrapper">
                                                                                         <div className="elementor-icon-box-icon">
-                                                                                            <a href="https://cybertron-tech.com/mailchimp-klaviyo/" className="elementor-icon" tabIndex={-1} aria-label="Mailchimp | Klaviyo ">
+                                                                                            <a href="/home/online-reputation/mailchimps/" className="elementor-icon" tabIndex={-1} aria-label="Mailchimp | Klaviyo ">
                                                                                                 <i aria-hidden="true" className="icon icon-mail" />				</a>
                                                                                         </div>
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/mailchimp-klaviyo/">
+                                                                                                <a href="/home/online-reputation/mailchimps/">
                                                                                                     Mailchimp | Klaviyo 						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">
@@ -428,12 +428,12 @@ const Header = ({ setActiveTab }) => {
                                                                                 <div className="elementor-widget-container">
                                                                                     <div className="elementor-icon-box-wrapper">
                                                                                         <div className="elementor-icon-box-icon">
-                                                                                            <a href="https://cybertron-tech.com/hootsuite-buffer/" className="elementor-icon" tabIndex={-1} aria-label="Hootsuite | Buffer ">
+                                                                                            <a href="/home/online-reputation/hootsuite/" className="elementor-icon" tabIndex={-1} aria-label="Hootsuite | Buffer ">
                                                                                                 <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#0EC9AC" height="800px" width="800px" id="Layer_1" viewBox="0 0 512 512" xmlSpace="preserve"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M434.424,38.788c-48.457,0-90.491,27.93-110.921,68.521c-21.74-4.257-44.4-6.461-67.503-6.461s-45.763,2.203-67.503,6.461 c-20.43-40.591-62.464-68.521-110.921-68.521H54.303v102.906c16.908-6.339,35.207-9.815,54.303-9.815 c68.636,0,126.995,44.803,147.394,106.698c20.399-61.895,78.758-106.698,147.394-106.698c19.098,0,37.395,3.475,54.303,9.815 V38.788H434.424z" /> </g> </g> <g> <g> <path d="M403.394,178.424c-59.885,0-108.606,48.721-108.606,108.606h-77.576c0-59.885-48.721-108.606-108.606-108.606 S0,227.145,0,287.03c0,51.329,27.733,99.008,78.091,134.26c47.832,33.482,111.016,51.921,177.909,51.921 s130.077-18.44,177.909-51.921C484.267,386.039,512,338.359,512,287.03C512,227.145,463.279,178.424,403.394,178.424z M108.606,349.091c-34.22,0-62.061-27.84-62.061-62.061s27.84-62.061,62.061-62.061s62.061,27.84,62.061,62.061 S142.826,349.091,108.606,349.091z M282.587,367.709C274.01,378.865,256,387.879,256,387.879s-18.01-9.014-26.587-20.17 c-2.746-2.797-4.444-6.63-4.444-10.861c0-4.231,1.699-8.063,4.444-10.861c8.575-11.155,26.587-20.17,26.587-20.17 s18.01,9.014,26.587,20.17c2.746,2.797,4.444,6.63,4.444,10.861C287.03,361.079,285.331,364.912,282.587,367.709z M403.394,349.091c-34.22,0-62.061-27.84-62.061-62.061s27.84-62.061,62.061-62.061s62.061,27.84,62.061,62.061 S437.614,349.091,403.394,349.091z" /> </g> </g> <g> <g> <circle cx="108.606" cy="287.03" r="23.273" /> </g> </g> <g> <g> <circle cx="403.394" cy="287.03" r="23.273" /> </g> </g> </g></svg>				</a>
                                                                                         </div>
                                                                                         <div className="elementor-icon-box-content">
                                                                                             <h3 className="elementor-icon-box-title">
-                                                                                                <a href="https://cybertron-tech.com/hootsuite-buffer/">
+                                                                                                <a href="/home/online-reputation/hootsuite/">
                                                                                                     Hootsuite | Buffer 						</a>
                                                                                             </h3>
                                                                                             <p className="elementor-icon-box-description">

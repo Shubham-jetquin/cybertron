@@ -32,6 +32,10 @@ export default function RootLayout({ children }) {
         <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1987.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1990.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1997.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-2155.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-2158.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-2161.css?ver=1741320363' media='all' />
+        <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-2164.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-2000.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1978.css?ver=1741320363' media='all' />
         <link rel='stylesheet' id='elementor-post-1761-css' href='/assets/wp-content/uploads/elementor/css/post-1768.css?ver=1741320363' media='all' />

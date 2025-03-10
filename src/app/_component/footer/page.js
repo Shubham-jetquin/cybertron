@@ -190,14 +190,14 @@ const Footer = () => {
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/semrush-ahrefs/">
+                                            <a href="/home/online-reputation/semrush/">
                                                 <span className="elementor-icon-list-text">
                                                     SEMrush | Ahrefs
                                                 </span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="https://cybertron-tech.com/mailchimp-klaviyo/">
+                                            <a href="/home/online-reputation/mailchimps/">
                                                 <span className="elementor-icon-list-text">
                                                     Mailchimp | Klaviyo
                                                 </span>
